@@ -1,0 +1,206 @@
+[2026-03-15 22:44:23] ==========================================
+[2026-03-15 22:44:23] 🚀 开始新一轮监控 (hourly)
+[2026-03-15 22:44:23] 🔍 搜索关键词: AI video generation
+[2026-03-15 22:44:23]   - GitHub 项目搜索...
+[2026-03-15 22:44:23]   - 技术博客搜索...
+[2026-03-15 22:44:26] 🔍 搜索关键词: content creation workflow
+[2026-03-15 22:44:26]   - GitHub 项目搜索...
+[2026-03-15 22:44:26]   - 技术博客搜索...
+[2026-03-15 22:44:28] 🔍 搜索关键词: voice synthesis tool
+[2026-03-15 22:44:28]   - GitHub 项目搜索...
+[2026-03-15 22:44:28]   - 技术博客搜索...
+[2026-03-15 22:44:30] 🔍 搜索关键词: AI剪辑案例
+[2026-03-15 22:44:30]   - GitHub 项目搜索...
+[2026-03-15 22:44:30]   - 技术博客搜索...
+[2026-03-15 22:44:32] 🔍 搜索关键词: TTS应用
+[2026-03-15 22:44:32]   - GitHub 项目搜索...
+[2026-03-15 22:44:32]   - 技术博客搜索...
+[2026-03-15 22:44:34] 🔍 搜索关键词: AI内容自动化
+[2026-03-15 22:44:34]   - GitHub 项目搜索...
+[2026-03-15 22:44:34]   - 技术博客搜索...
+[2026-03-15 22:44:36] 🔍 搜索关键词: Sora alternatives
+[2026-03-15 22:44:36]   - GitHub 项目搜索...
+[2026-03-15 22:44:36]   - 技术博客搜索...
+[2026-03-15 22:44:38] 🔍 搜索关键词: HeyGen alternatives
+[2026-03-15 22:44:38]   - GitHub 项目搜索...
+[2026-03-15 22:44:38]   - 技术博客搜索...
+[2026-03-15 22:44:40] 🔍 搜索关键词: ElevenLabs alternatives
+[2026-03-15 22:44:40]   - GitHub 项目搜索...
+[2026-03-15 22:44:40]   - 技术博客搜索...
+[2026-03-15 22:44:42] 📊 评分与优化分析...
+[2026-03-15 22:44:42] ✅ 本次评分: 35/100 - 需要进一步丰富搜索关键词，增加案例收集
+[2026-03-15 22:44:42] 📁 收集目录:       10 个, 文档:        0 个
+[2026-03-15 22:44:42] → 飞书消息（当前会话）: 🤖 Zhengongfu 监控进度 - 🎯 本次监控完成\n\n📊 评分: 35/100\n📁 收集文档:  个\n💡 建议: 需要进一步丰富搜索关键词，增加案例收集\n\n详细报告: /Users/h/openclaw/zhengongfu/development
+[2026-03-15 22:44:42] 📧 飞书通知已发送
+[2026-03-15 22:45:31] ==========================================
+[2026-03-15 22:45:31] 🚀 开始新一轮监控 (hourly)
+[2026-03-15 22:45:31] 🤖 监控目标: zhengongfu + AI创作/AI剪辑/语音合成
+[2026-03-15 22:45:31]   - GitHub 项目搜索: AI video generation
+[2026-03-15 22:45:35]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/AI_video_generation/github.md
+[2026-03-15 22:45:35]   - 网页资源搜索: AI video generation
+[2026-03-15 22:45:38]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/AI_video_generation/web_resources.md
+[2026-03-15 22:45:41]   - GitHub 项目搜索: content creation workflow
+[2026-03-15 22:45:43]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/content_creation_workflow/github.md
+[2026-03-15 22:45:43]   - 网页资源搜索: content creation workflow
+[2026-03-15 22:45:46]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/content_creation_workflow/web_resources.md
+[2026-03-15 22:45:50]   - GitHub 项目搜索: voice synthesis tool
+[2026-03-15 22:45:52]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/voice_synthesis_tool/github.md
+[2026-03-15 22:45:52]   - 网页资源搜索: voice synthesis tool
+[2026-03-15 22:45:54]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/voice_synthesis_tool/web_resources.md
+[2026-03-15 22:45:57]   - GitHub 项目搜索: AI剪辑案例
+[2026-03-15 22:46:00]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/AI剪辑案例/github.md
+[2026-03-15 22:46:00]   - 网页资源搜索: AI剪辑案例
+[2026-03-15 22:46:02]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/AI剪辑案例/web_resources.md
+[2026-03-15 22:46:05]   - GitHub 项目搜索: TTS应用
+[2026-03-15 22:46:08]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/TTS应用/github.md
+[2026-03-15 22:46:08]   - 网页资源搜索: TTS应用
+[2026-03-15 22:46:11]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/TTS应用/web_resources.md
+[2026-03-15 22:46:14]   - GitHub 项目搜索: AI内容自动化
+[2026-03-15 22:46:20]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/AI内容自动化/github.md
+[2026-03-15 22:46:20]   - 网页资源搜索: AI内容自动化
+[2026-03-15 22:46:35]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/AI内容自动化/web_resources.md
+[2026-03-15 22:46:38]   - GitHub 项目搜索: Sora alternatives
+[2026-03-15 22:46:45]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/Sora_alternatives/github.md
+[2026-03-15 22:46:45]   - 网页资源搜索: Sora alternatives
+[2026-03-15 22:46:47]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/Sora_alternatives/web_resources.md
+[2026-03-15 22:46:50]   - GitHub 项目搜索: HeyGen alternatives
+[2026-03-15 22:46:53]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/HeyGen_alternatives/github.md
+[2026-03-15 22:46:53]   - 网页资源搜索: HeyGen alternatives
+[2026-03-15 22:46:55]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/HeyGen_alternatives/web_resources.md
+[2026-03-15 22:46:58]   - GitHub 项目搜索: ElevenLabs alternatives
+[2026-03-15 22:47:01]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/ElevenLabs_alternatives/github.md
+[2026-03-15 22:47:01]   - 网页资源搜索: ElevenLabs alternatives
+[2026-03-15 22:47:03]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/ElevenLabs_alternatives/web_resources.md
+[2026-03-15 22:47:06] 📊 评分与优化分析...
+[2026-03-15 22:47:20] ==========================================
+[2026-03-15 22:47:20] 🚀 开始新一轮监控 (hourly)
+[2026-03-15 22:47:20] 🤖 监控目标: zhengongfu + AI创作/AI剪辑/语音合成
+[2026-03-15 22:47:20]   - GitHub 项目搜索: AI video generation
+[2026-03-15 22:47:24]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/AI_video_generation/github.md
+[2026-03-15 22:47:24]   - 网页资源搜索: AI video generation
+[2026-03-15 22:47:26]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/AI_video_generation/web_resources.md
+[2026-03-15 22:47:29]   - GitHub 项目搜索: content creation workflow
+[2026-03-15 22:47:32]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/content_creation_workflow/github.md
+[2026-03-15 22:47:32]   - 网页资源搜索: content creation workflow
+[2026-03-15 22:47:34]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/content_creation_workflow/web_resources.md
+[2026-03-15 22:47:37]   - GitHub 项目搜索: voice synthesis tool
+[2026-03-15 22:47:39]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/voice_synthesis_tool/github.md
+[2026-03-15 22:47:39]   - 网页资源搜索: voice synthesis tool
+[2026-03-15 22:47:41]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/voice_synthesis_tool/web_resources.md
+[2026-03-15 22:47:44]   - GitHub 项目搜索: AI剪辑案例
+[2026-03-15 22:47:48]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/AI剪辑案例/github.md
+[2026-03-15 22:47:48]   - 网页资源搜索: AI剪辑案例
+[2026-03-15 22:47:50]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/AI剪辑案例/web_resources.md
+[2026-03-15 22:47:53]   - GitHub 项目搜索: TTS应用
+[2026-03-15 22:47:57]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/TTS应用/github.md
+[2026-03-15 22:47:57]   - 网页资源搜索: TTS应用
+[2026-03-15 22:48:02]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/TTS应用/web_resources.md
+[2026-03-15 22:48:05]   - GitHub 项目搜索: AI内容自动化
+[2026-03-15 22:48:07]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/AI内容自动化/github.md
+[2026-03-15 22:48:07]   - 网页资源搜索: AI内容自动化
+[2026-03-15 22:48:10]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/AI内容自动化/web_resources.md
+[2026-03-15 22:48:13]   - GitHub 项目搜索: Sora alternatives
+[2026-03-15 22:48:16]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/Sora_alternatives/github.md
+[2026-03-15 22:48:16]   - 网页资源搜索: Sora alternatives
+[2026-03-15 22:48:19]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/Sora_alternatives/web_resources.md
+[2026-03-15 22:48:22]   - GitHub 项目搜索: HeyGen alternatives
+[2026-03-15 22:48:24]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/HeyGen_alternatives/github.md
+[2026-03-15 22:48:24]   - 网页资源搜索: HeyGen alternatives
+[2026-03-15 22:48:26]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/HeyGen_alternatives/web_resources.md
+[2026-03-15 22:48:29]   - GitHub 项目搜索: ElevenLabs alternatives
+[2026-03-15 22:48:35]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/ElevenLabs_alternatives/github.md
+[2026-03-15 22:48:35]   - 网页资源搜索: ElevenLabs alternatives
+[2026-03-15 22:48:37]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/ElevenLabs_alternatives/web_resources.md
+[2026-03-15 22:48:40] 📊 评分与优化分析...
+[2026-03-15 22:49:03] ==========================================
+[2026-03-15 22:49:03] 🚀 开始新一轮监控 (hourly)
+[2026-03-15 22:49:03] 🤖 监控目标: zhengongfu + AI创作/AI剪辑/语音合成
+[2026-03-15 22:49:03]   - GitHub 项目搜索: AI video generation
+[2026-03-15 22:49:09]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/AI_video_generation/github.md
+[2026-03-15 22:49:09]   - 网页资源搜索: AI video generation
+[2026-03-15 22:49:12]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/AI_video_generation/web_resources.md
+[2026-03-15 22:49:15]   - GitHub 项目搜索: content creation workflow
+[2026-03-15 22:49:18]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/content_creation_workflow/github.md
+[2026-03-15 22:49:18]   - 网页资源搜索: content creation workflow
+[2026-03-15 22:49:21]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/content_creation_workflow/web_resources.md
+[2026-03-15 22:49:24]   - GitHub 项目搜索: voice synthesis tool
+[2026-03-15 22:49:27]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/voice_synthesis_tool/github.md
+[2026-03-15 22:49:27]   - 网页资源搜索: voice synthesis tool
+[2026-03-15 22:49:30]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/voice_synthesis_tool/web_resources.md
+[2026-03-15 22:49:33]   - GitHub 项目搜索: AI剪辑案例
+[2026-03-15 22:49:36]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/AI剪辑案例/github.md
+[2026-03-15 22:49:36]   - 网页资源搜索: AI剪辑案例
+[2026-03-15 22:49:40]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/AI剪辑案例/web_resources.md
+[2026-03-15 22:49:43]   - GitHub 项目搜索: TTS应用
+[2026-03-15 22:49:45]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/TTS应用/github.md
+[2026-03-15 22:49:45]   - 网页资源搜索: TTS应用
+[2026-03-15 22:49:48]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/TTS应用/web_resources.md
+[2026-03-15 22:49:51]   - GitHub 项目搜索: AI内容自动化
+[2026-03-15 22:49:54]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/AI内容自动化/github.md
+[2026-03-15 22:49:54]   - 网页资源搜索: AI内容自动化
+[2026-03-15 22:49:59]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/AI内容自动化/web_resources.md
+[2026-03-15 22:50:02]   - GitHub 项目搜索: Sora alternatives
+[2026-03-15 22:50:07]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/Sora_alternatives/github.md
+[2026-03-15 22:50:07]   - 网页资源搜索: Sora alternatives
+[2026-03-15 22:50:09]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/Sora_alternatives/web_resources.md
+[2026-03-15 22:50:12]   - GitHub 项目搜索: HeyGen alternatives
+[2026-03-15 22:50:17]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/HeyGen_alternatives/github.md
+[2026-03-15 22:50:17]   - 网页资源搜索: HeyGen alternatives
+[2026-03-15 22:50:20]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/HeyGen_alternatives/web_resources.md
+[2026-03-15 22:50:23]   - GitHub 项目搜索: ElevenLabs alternatives
+[2026-03-15 22:50:25]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/ElevenLabs_alternatives/github.md
+[2026-03-15 22:50:25]   - 网页资源搜索: ElevenLabs alternatives
+[2026-03-15 22:50:28]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/ElevenLabs_alternatives/web_resources.md
+[2026-03-15 22:50:31] 📊 评分与优化分析...
+[2026-03-15 22:51:29] ==========================================
+[2026-03-15 22:51:29] 🚀 开始新一轮监控 (hourly)
+[2026-03-15 22:51:29] 🤖 监控目标: zhengongfu + AI创作/AI剪辑/语音合成
+[2026-03-15 22:51:29]   - GitHub 项目搜索: AI video generation
+[2026-03-15 22:51:32]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/AI_video_generation/github.md
+[2026-03-15 22:51:32]   - 网页资源搜索: AI video generation
+[2026-03-15 22:51:36]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/AI_video_generation/web_resources.md
+[2026-03-15 22:51:39]   - GitHub 项目搜索: content creation workflow
+[2026-03-15 22:51:43]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/content_creation_workflow/github.md
+[2026-03-15 22:51:43]   - 网页资源搜索: content creation workflow
+[2026-03-15 22:51:45]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/content_creation_workflow/web_resources.md
+[2026-03-15 22:51:48]   - GitHub 项目搜索: voice synthesis tool
+[2026-03-15 22:51:52]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/voice_synthesis_tool/github.md
+[2026-03-15 22:51:52]   - 网页资源搜索: voice synthesis tool
+[2026-03-15 22:51:54]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/voice_synthesis_tool/web_resources.md
+[2026-03-15 22:51:57]   - GitHub 项目搜索: AI剪辑案例
+[2026-03-15 22:51:59]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/AI剪辑案例/github.md
+[2026-03-15 22:51:59]   - 网页资源搜索: AI剪辑案例
+[2026-03-15 22:52:02]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/AI剪辑案例/web_resources.md
+[2026-03-15 22:52:06]   - GitHub 项目搜索: TTS应用
+[2026-03-15 22:52:08]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/TTS应用/github.md
+[2026-03-15 22:52:08]   - 网页资源搜索: TTS应用
+[2026-03-15 22:52:10]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/TTS应用/web_resources.md
+[2026-03-15 22:52:13]   - GitHub 项目搜索: AI内容自动化
+[2026-03-15 22:52:15]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/AI内容自动化/github.md
+[2026-03-15 22:52:15]   - 网页资源搜索: AI内容自动化
+[2026-03-15 22:52:19]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/AI内容自动化/web_resources.md
+[2026-03-15 22:52:22]   - GitHub 项目搜索: Sora alternatives
+[2026-03-15 22:52:25]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/Sora_alternatives/github.md
+[2026-03-15 22:52:25]   - 网页资源搜索: Sora alternatives
+[2026-03-15 22:52:27]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/Sora_alternatives/web_resources.md
+[2026-03-15 22:52:30]   - GitHub 项目搜索: HeyGen alternatives
+[2026-03-15 22:52:33]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/HeyGen_alternatives/github.md
+[2026-03-15 22:52:33]   - 网页资源搜索: HeyGen alternatives
+[2026-03-15 22:52:36]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/HeyGen_alternatives/web_resources.md
+[2026-03-15 22:52:39]   - GitHub 项目搜索: ElevenLabs alternatives
+[2026-03-15 22:52:42]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/ElevenLabs_alternatives/github.md
+[2026-03-15 22:52:42]   - 网页资源搜索: ElevenLabs alternatives
+[2026-03-15 22:52:45]     ✓ 保存到 /Users/h/openclaw/zhengongfu/development/ElevenLabs_alternatives/web_resources.md
+[2026-03-15 22:52:48] 📊 评分与优化分析...
+[2026-03-15 22:52:48] ✅ 本次评分: 90/100 - 内容已较完整，可以开始整理和应用
+[2026-03-15 22:52:48] 📁 收集目录: 9 个, 文档: 18 个, 仓库: 30 个
+[2026-03-15 22:52:48] → 飞书消息（当前会话）: 🤖 Zhengongfu 监控进度 - 🎯 本次监控完成
+
+📊 评分: 90/100
+📁 收集文档: 18 个
+📦 收集仓库: 30 个
+💡 建议: 内容已较完整，可以开始整理和应用
+
+详细报告: /Users/h/openclaw/zhengongfu/development
+ lasts: /Users/h/openclaw/zhengongfu/development/latest_run.json
+[2026-03-15 22:52:48] 📧 飞书通知已发送
