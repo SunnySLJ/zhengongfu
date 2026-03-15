@@ -1,0 +1,242 @@
+[
+  {
+    "topic": "#315晚会今晚直播#",
+    "category": "社会",
+    "platform_target": "抖音",
+    "style": "情感共鸣",
+    "title": "315晚会这次会曝光谁？",
+    "hook": "你上次被坑过吗？今晚可能有答案！",
+    "segments": [
+      {
+        "time": "0-3s",
+        "type": "hook",
+        "text": "年年315，哪次让你最心痛？",
+        "visual": "315晚会历年截图快速闪过"
+      },
+      {
+        "time": "3-15s",
+        "type": "conflict",
+        "text": "你用过的品牌，今晚可能上榜！",
+        "visual": "超市商品货架扫描镜头"
+      },
+      {
+        "time": "15-45s",
+        "type": "content",
+        "text": "今晚直播间315晚会，历年曝光行业：食品安全83次、医疗美容47次、金融理财32次。今年新增关注：AI应用安全、外卖食品……",
+        "visual": "数据可视化动画"
+      },
+      {
+        "time": "45-60s",
+        "type": "cta",
+        "text": "关注我，今晚直播间一起守护权益！",
+        "visual": "直播间引导界面"
+      }
+    ],
+    "hashtags": [
+      "#315晚会",
+      "#消费者权益",
+      "#避坑指南",
+      "#今晚直播",
+      "#315曝光"
+    ],
+    "bgm_style": "紧张悬疑",
+    "conversion_goal": "涨粉",
+    "difficulty": "低",
+    "estimated_views": "50万-200万",
+    "generate_time": "2026-03-15 18:34:53",
+    "raw_rank": 1,
+    "raw_heat": "热 9.8亿"
+  },
+  {
+    "topic": "#AI养虾装虾499卸载299#",
+    "category": "科技",
+    "platform_target": "B站",
+    "style": "娱乐搞笑",
+    "title": "AI养虾翻车现场，我没忍住笑了",
+    "hook": "程序员用AI养虾，结果虾死了，AI没死",
+    "segments": [
+      {
+        "time": "0-3s",
+        "type": "hook",
+        "text": "程序员花1000块让AI养虾，出大事了！",
+        "visual": "虾缸+代码界面分屏特写"
+      },
+      {
+        "time": "3-15s",
+        "type": "conflict",
+        "text": "499买AI养虾系统，还要299卸载费？虾死了他哭了",
+        "visual": "截图+弹幕刷屏动画"
+      },
+      {
+        "time": "15-45s",
+        "type": "content",
+        "text": "事情经过：某程序员花499元购买AI虾苗监控系统，AI过度投喂，虾全死。联系客服：卸载需另付299元。帖子发出……一夜3000条评论",
+        "visual": "事件时间线动画"
+      },
+      {
+        "time": "45-60s",
+        "type": "cta",
+        "text": "AI消费陷阱，你踩过吗？评论区说！",
+        "visual": "评论区弹幕飞过"
+      }
+    ],
+    "hashtags": [
+      "#AI养虾",
+      "#科技翻车",
+      "#消费维权",
+      "#315",
+      "#AI应用"
+    ],
+    "bgm_style": "轻松搞笑",
+    "conversion_goal": "流量",
+    "difficulty": "低",
+    "estimated_views": "100万-500万",
+    "generate_time": "2026-03-15 18:34:53",
+    "raw_rank": 2,
+    "raw_heat": "热 5.2亿"
+  },
+  {
+    "topic": "#理想官宣下半年推出理想i9#",
+    "category": "财经",
+    "platform_target": "抖音",
+    "style": "干货知识",
+    "title": "理想i9定价50万+，值吗？",
+    "hook": "理想要出50万的车！买还是不买？",
+    "segments": [
+      {
+        "time": "0-3s",
+        "type": "hook",
+        "text": "理想i9即将上市，你猜多少钱？",
+        "visual": "理想i9渲染图动态展示"
+      },
+      {
+        "time": "3-15s",
+        "type": "conflict",
+        "text": "50万买理想，还是BBA？你会怎么选？",
+        "visual": "分屏对比：i9 vs 奔驰GLS vs 宝马X7"
+      },
+      {
+        "time": "15-45s",
+        "type": "content",
+        "text": "理想i9：6座纯电旗舰SUV，预计续航800km+，大五座空间，华为智驾合作……同价位对手竟然是劳斯莱斯！",
+        "visual": "参数对比动画"
+      },
+      {
+        "time": "45-60s",
+        "type": "cta",
+        "text": "你会买吗？评论区告诉我！",
+        "visual": "评论区互动引导"
+      }
+    ],
+    "hashtags": [
+      "#理想i9",
+      "#理想汽车",
+      "#新能源SUV",
+      "#50万买什么车",
+      "#汽车测评"
+    ],
+    "bgm_style": "大气磅礴",
+    "conversion_goal": "流量",
+    "difficulty": "中",
+    "estimated_views": "30万-150万",
+    "generate_time": "2026-03-15 18:34:53",
+    "raw_rank": 3,
+    "raw_heat": "热 3.1亿"
+  },
+  {
+    "topic": "#微信三大功能更新#",
+    "category": "科技",
+    "platform_target": "B站",
+    "style": "干货知识",
+    "title": "微信悄悄更新，你发现了吗？",
+    "hook": "10亿人用的App，这3个功能你不知道？",
+    "segments": [
+      {
+        "time": "0-3s",
+        "type": "hook",
+        "text": "微信刚更新，90%的人不知道这个功能！",
+        "visual": "手机屏幕微信界面特写"
+      },
+      {
+        "time": "3-15s",
+        "type": "conflict",
+        "text": "被领导拉群、深夜骚扰电话……你有没有这种困扰？",
+        "visual": "情景再现：深夜手机来电"
+      },
+      {
+        "time": "15-45s",
+        "type": "content",
+        "text": "功能①忽略来电：静音但不拒接，对方不知道。功能②长文转发：原格式不变形。功能③…",
+        "visual": "手机操作实录演示"
+      },
+      {
+        "time": "45-60s",
+        "type": "cta",
+        "text": "三连收藏，下次用得到！",
+        "visual": "点赞收藏动画"
+      }
+    ],
+    "hashtags": [
+      "#微信新功能",
+      "#微信技巧",
+      "#手机技巧",
+      "#科技分享",
+      "#数码"
+    ],
+    "bgm_style": "轻快活泼",
+    "conversion_goal": "涨粉",
+    "difficulty": "低",
+    "estimated_views": "20万-100万",
+    "generate_time": "2026-03-15 18:34:53",
+    "raw_rank": 4,
+    "raw_heat": "热 4.6亿"
+  },
+  {
+    "topic": "#西安不倒翁小姐姐宣布离职#",
+    "category": "社会",
+    "platform_target": "抖音",
+    "style": "情感共鸣",
+    "title": "315晚会这次会曝光谁？",
+    "hook": "你上次被坑过吗？今晚可能有答案！",
+    "segments": [
+      {
+        "time": "0-3s",
+        "type": "hook",
+        "text": "年年315，哪次让你最心痛？",
+        "visual": "315晚会历年截图快速闪过"
+      },
+      {
+        "time": "3-15s",
+        "type": "conflict",
+        "text": "你用过的品牌，今晚可能上榜！",
+        "visual": "超市商品货架扫描镜头"
+      },
+      {
+        "time": "15-45s",
+        "type": "content",
+        "text": "今晚直播间315晚会，历年曝光行业：食品安全83次、医疗美容47次、金融理财32次。今年新增关注：AI应用安全、外卖食品……",
+        "visual": "数据可视化动画"
+      },
+      {
+        "time": "45-60s",
+        "type": "cta",
+        "text": "关注我，今晚直播间一起守护权益！",
+        "visual": "直播间引导界面"
+      }
+    ],
+    "hashtags": [
+      "#315晚会",
+      "#消费者权益",
+      "#避坑指南",
+      "#今晚直播",
+      "#315曝光"
+    ],
+    "bgm_style": "紧张悬疑",
+    "conversion_goal": "涨粉",
+    "difficulty": "低",
+    "estimated_views": "50万-200万",
+    "generate_time": "2026-03-15 18:34:53",
+    "raw_rank": 5,
+    "raw_heat": "热 2.1亿"
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "job_id": "JOB0001",
+    "platform": "抖音",
+    "title": "苹果春季发布会最全预测来了",
+    "publish_time": "2026-03-15 20:04",
+    "status": "scheduled",
+    "auto_mode": true,
+    "account": "抖音_account_01"
+  },
+  {
+    "job_id": "JOB0002",
+    "platform": "微博",
+    "title": "苹果春季发布会最全预测来了",
+    "publish_time": "2026-03-15 20:04",
+    "status": "scheduled",
+    "auto_mode": true,
+    "account": "微博_account_01"
+  },
+  {
+    "job_id": "JOB0003",
+    "platform": "小红书",
+    "title": "苹果春季发布会最全预测来了",
+    "publish_time": "2026-03-15 20:04",
+    "status": "scheduled",
+    "auto_mode": true,
+    "account": "小红书_account_01"
+  },
+  {
+    "job_id": "JOB0004",
+    "platform": "抖音",
+    "title": "全国两会今日正式闭幕！",
+    "publish_time": "2026-03-15 22:04",
+    "status": "scheduled",
+    "auto_mode": true,
+    "account": "抖音_account_02"
+  },
+  {
+    "job_id": "JOB0005",
+    "platform": "微博",
+    "title": "全国两会今日正式闭幕！",
+    "publish_time": "2026-03-15 22:04",
+    "status": "scheduled",
+    "auto_mode": true,
+    "account": "微博_account_02"
+  },
+  {
+    "job_id": "JOB0006",
+    "platform": "小红书",
+    "title": "全国两会今日正式闭幕！",
+    "publish_time": "2026-03-15 22:04",
+    "status": "scheduled",
+    "auto_mode": true,
+    "account": "小红书_account_02"
+  },
+  {
+    "job_id": "JOB0007",
+    "platform": "抖音",
+    "title": "狗仔镜头拍到我了？",
+    "publish_time": "2026-03-16 00:04",
+    "status": "scheduled",
+    "auto_mode": true,
+    "account": "抖音_account_03"
+  },
+  {
+    "job_id": "JOB0008",
+    "platform": "微博",
+    "title": "狗仔镜头拍到我了？",
+    "publish_time": "2026-03-16 00:04",
+    "status": "scheduled",
+    "auto_mode": true,
+    "account": "微博_account_03"
+  },
+  {
+    "job_id": "JOB0009",
+    "platform": "小红书",
+    "title": "狗仔镜头拍到我了？",
+    "publish_time": "2026-03-16 00:04",
+    "status": "scheduled",
+    "auto_mode": true,
+    "account": "小红书_account_03"
+  },
+  {
+    "job_id": "JOB0010",
+    "platform": "抖音",
+    "title": "A股全线飘红！散户如何抓住机会",
+    "publish_time": "2026-03-16 02:04",
+    "status": "scheduled",
+    "auto_mode": true,
+    "account": "抖音_account_01"
+  },
+  {
+    "job_id": "JOB0011",
+    "platform": "微博",
+    "title": "A股全线飘红！散户如何抓住机会",
+    "publish_time": "2026-03-16 02:04",
+    "status": "scheduled",
+    "auto_mode": true,
+    "account": "微博_account_01"
+  },
+  {
+    "job_id": "JOB0012",
+    "platform": "小红书",
+    "title": "A股全线飘红！散户如何抓住机会",
+    "publish_time": "2026-03-16 02:04",
+    "status": "scheduled",
+    "auto_mode": true,
+    "account": "小红书_account_01"
+  },
+  {
+    "job_id": "JOB0013",
+    "platform": "抖音",
+    "title": "梅西绝杀点燃全场！",
+    "publish_time": "2026-03-16 04:04",
+    "status": "scheduled",
+    "auto_mode": true,
+    "account": "抖音_account_02"
+  },
+  {
+    "job_id": "JOB0014",
+    "platform": "微博",
+    "title": "梅西绝杀点燃全场！",
+    "publish_time": "2026-03-16 04:04",
+    "status": "scheduled",
+    "auto_mode": true,
+    "account": "微博_account_02"
+  }
+]

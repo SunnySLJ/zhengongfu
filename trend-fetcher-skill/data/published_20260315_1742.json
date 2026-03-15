@@ -1,0 +1,101 @@
+[
+  {
+    "status": "scheduled",
+    "platform": "douyin",
+    "name": "抖音",
+    "video_title": "苹果春季发布会最全爆料来了",
+    "publish_time": "2026-03-15 17:42:54",
+    "mock_url": "https://douyin.example.com/video/mock_1773567774",
+    "account": "抖音账号_01",
+    "note": "模拟排期，未实际发布",
+    "platform_name": "抖音"
+  },
+  {
+    "status": "scheduled",
+    "platform": "bilibili",
+    "name": "B站",
+    "video_title": "苹果春季发布会最全爆料来了",
+    "publish_time": "2026-03-15 17:42:54",
+    "mock_url": "https://bilibili.example.com/video/mock_1773567774",
+    "account": "B站账号_01",
+    "note": "模拟排期，未实际发布",
+    "platform_name": "B站"
+  },
+  {
+    "status": "scheduled",
+    "platform": "xiaohongshu",
+    "name": "小红书",
+    "video_title": "苹果春季发布会最全爆料来了",
+    "publish_time": "2026-03-15 17:42:54",
+    "mock_url": "https://xiaohongshu.example.com/video/mock_1773567774",
+    "account": "小红书账号_01",
+    "note": "模拟排期，未实际发布",
+    "platform_name": "小红书"
+  },
+  {
+    "status": "scheduled",
+    "platform": "douyin",
+    "name": "抖音",
+    "video_title": "今年政府工作报告三大亮点",
+    "publish_time": "2026-03-15 17:42:54",
+    "mock_url": "https://douyin.example.com/video/mock_1773567774",
+    "account": "抖音账号_01",
+    "note": "模拟排期，未实际发布",
+    "platform_name": "抖音"
+  },
+  {
+    "status": "scheduled",
+    "platform": "bilibili",
+    "name": "B站",
+    "video_title": "今年政府工作报告三大亮点",
+    "publish_time": "2026-03-15 17:42:54",
+    "mock_url": "https://bilibili.example.com/video/mock_1773567774",
+    "account": "B站账号_01",
+    "note": "模拟排期，未实际发布",
+    "platform_name": "B站"
+  },
+  {
+    "status": "scheduled",
+    "platform": "xiaohongshu",
+    "name": "小红书",
+    "video_title": "今年政府工作报告三大亮点",
+    "publish_time": "2026-03-15 17:42:54",
+    "mock_url": "https://xiaohongshu.example.com/video/mock_1773567774",
+    "account": "小红书账号_01",
+    "note": "模拟排期，未实际发布",
+    "platform_name": "小红书"
+  },
+  {
+    "status": "scheduled",
+    "platform": "douyin",
+    "name": "抖音",
+    "video_title": "明星离婚瓜比电视剧还精彩",
+    "publish_time": "2026-03-15 17:42:54",
+    "mock_url": "https://douyin.example.com/video/mock_1773567775",
+    "account": "抖音账号_01",
+    "note": "模拟排期，未实际发布",
+    "platform_name": "抖音"
+  },
+  {
+    "status": "scheduled",
+    "platform": "bilibili",
+    "name": "B站",
+    "video_title": "明星离婚瓜比电视剧还精彩",
+    "publish_time": "2026-03-15 17:42:54",
+    "mock_url": "https://bilibili.example.com/video/mock_1773567775",
+    "account": "B站账号_01",
+    "note": "模拟排期，未实际发布",
+    "platform_name": "B站"
+  },
+  {
+    "status": "scheduled",
+    "platform": "xiaohongshu",
+    "name": "小红书",
+    "video_title": "明星离婚瓜比电视剧还精彩",
+    "publish_time": "2026-03-15 17:42:54",
+    "mock_url": "https://xiaohongshu.example.com/video/mock_1773567775",
+    "account": "小红书账号_01",
+    "note": "模拟排期，未实际发布",
+    "platform_name": "小红书"
+  }
+]

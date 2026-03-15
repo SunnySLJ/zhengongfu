@@ -1,0 +1,96 @@
+{
+  "trends_fetched": 120,
+  "scripts_generated": 3,
+  "assets_matched": 3,
+  "videos_produced": 59,
+  "avg_script_time": 13.6,
+  "avg_match_time": 39,
+  "daily_output": 8,
+  "pipeline_success": 93.5,
+  "total_published": 50,
+  "platforms_used": 4,
+  "accounts_active": 3,
+  "scheduled_count": 25,
+  "best_time_slot": "18:00-21:00",
+  "auto_rate": 90.4,
+  "total_views": 550,
+  "avg_views": 11,
+  "peak_views": 62,
+  "total_likes": 33,
+  "total_comments": 8,
+  "total_shares": 13,
+  "total_saves": 19,
+  "completion_rate": 58.6,
+  "total_fans": 0.2,
+  "new_fans_today": 220,
+  "fan_growth_rate": 10.84,
+  "fan_retention": 62.6,
+  "total_revenue": 1500,
+  "cpm": 15,
+  "conversion_rate": 3.0,
+  "roi": 10.0,
+  "top_earner": 516,
+  "monthly_target": 80.9,
+  "avg_engagement": 4.2,
+  "viral_count": 4,
+  "viral_rate": 8.0,
+  "best_category": "科技",
+  "script_score": 8.0,
+  "duplicate_rate": 0.7,
+  "_categories": {
+    "社会": 9,
+    "科技": 38,
+    "财经": 13,
+    "娱乐": 8,
+    "国际": 5,
+    "体育": 13,
+    "生活": 24,
+    "政策": 5,
+    "教育": 5
+  },
+  "_platforms": {
+    "抖音": 20,
+    "B站": 10,
+    "小红书": 10,
+    "微博": 5,
+    "知乎": 2,
+    "百度": 2
+  },
+  "_week_data": [
+    {
+      "day": "03/09",
+      "views": 192,
+      "scripts": 3
+    },
+    {
+      "day": "03/10",
+      "views": 438,
+      "scripts": 8
+    },
+    {
+      "day": "03/11",
+      "views": 407,
+      "scripts": 16
+    },
+    {
+      "day": "03/12",
+      "views": 224,
+      "scripts": 11
+    },
+    {
+      "day": "03/13",
+      "views": 129,
+      "scripts": 9
+    },
+    {
+      "day": "03/14",
+      "views": 440,
+      "scripts": 13
+    },
+    {
+      "day": "03/15",
+      "views": 102,
+      "scripts": 5
+    }
+  ]
+}

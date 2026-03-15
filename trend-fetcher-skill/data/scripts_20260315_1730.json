@@ -1,0 +1,242 @@
+[
+  {
+    "topic": "苹果春季发布会新品爆料",
+    "category": "科技",
+    "platform_target": "B站",
+    "style": "干货知识",
+    "title": "苹果春季发布会最全爆料来了",
+    "hook": "苹果春季发布会即将召开！这些新品你准备好了吗？",
+    "segments": [
+      {
+        "time": "0-3s",
+        "type": "hook",
+        "text": "苹果春季发布会即将召开！这些新品你准备好了吗？",
+        "visual": "苹果logo动画+发布会倒计时特效"
+      },
+      {
+        "time": "3-15s",
+        "type": "conflict",
+        "text": "每年苹果发布会都让人期待又焦虑，不知道该不该买新设备，今天一次性告诉你所有爆料信息",
+        "visual": "用户纠结表情包+各种苹果产品堆叠画面"
+      },
+      {
+        "time": "15-45s",
+        "type": "content",
+        "text": "iPhone SE4将搭载A18芯片支持AI功能；iPad Pro或推出全新M3芯片版本；AirPods Pro可能迎来降噪升级；Watch Series 10关注健康监测新功能。预算有限可重点关注SE4，追求性能选iPad Pro。",
+        "visual": "各产品渲染图展示+参数对比表格"
+      },
+      {
+        "time": "45-60s",
+        "type": "cta",
+        "text": "点赞收藏不迷路，第一时间获取最新科技资讯！",
+        "visual": "点赞手势动画+订阅按钮特效"
+      }
+    ],
+    "hashtags": [
+      "#苹果发布会",
+      "#科技爆料",
+      "#iPhoneSE4",
+      "#iPadPro",
+      "#Apple新品"
+    ],
+    "bgm_style": "轻松",
+    "conversion_goal": "涨粉",
+    "difficulty": "中",
+    "estimated_views": "50万-100万",
+    "generate_time": "2026-03-15 17:29:45",
+    "raw_rank": 1,
+    "raw_heat": "4567万"
+  },
+  {
+    "topic": "全国两会政府工作报告解读",
+    "category": "政策",
+    "platform_target": "微博",
+    "style": "新闻资讯",
+    "title": "今年政府工作报告三大亮点",
+    "hook": "今年两会透露哪些民生红利？",
+    "segments": [
+      {
+        "time": "0-3s",
+        "type": "hook",
+        "text": "今年两会透露哪些民生红利？",
+        "visual": "两会现场镜头快速切换"
+      },
+      {
+        "time": "3-15s",
+        "type": "conflict",
+        "text": "GDP增长目标确定，就业压力仍存，民生支出如何保障？",
+        "visual": "经济数据图表动画展示"
+      },
+      {
+        "time": "15-45s",
+        "type": "content",
+        "text": "政府工作报告明确今年发展目标：GDP增长5%左右，新增就业1200万人以上，教育医疗养老投入持续增加，减税降费力度不减。",
+        "visual": "关键数据可视化呈现，领导人讲话画面穿插"
+      },
+      {
+        "time": "45-60s",
+        "type": "cta",
+        "text": "关注政策变化，把握发展机遇！",
+        "visual": "政策要点总结画面"
+      }
+    ],
+    "hashtags": [
+      "#全国两会",
+      "#政府工作报告",
+      "#政策解读",
+      "#民生福祉",
+      "#经济发展"
+    ],
+    "bgm_style": "激昂",
+    "conversion_goal": "流量",
+    "difficulty": "中",
+    "estimated_views": "50万-100万",
+    "generate_time": "2026-03-15 17:29:45",
+    "raw_rank": 2,
+    "raw_heat": "3892万"
+  },
+  {
+    "topic": "某明星离婚风波",
+    "category": "娱乐",
+    "platform_target": "抖音",
+    "style": "娱乐搞笑",
+    "title": "明星离婚瓜比电视剧还精彩",
+    "hook": "这个瓜我吃了三天还没消化完！",
+    "segments": [
+      {
+        "time": "0-3s",
+        "type": "hook",
+        "text": "这个瓜我吃了三天还没消化完！",
+        "visual": "夸张表情吃瓜动画"
+      },
+      {
+        "time": "3-15s",
+        "type": "conflict",
+        "text": "明星离婚比八点档还狗血，剧情反转再反转，网友都看懵了！",
+        "visual": "快速剪辑各路八卦截图和表情包"
+      },
+      {
+        "time": "15-45s",
+        "type": "content",
+        "text": "男方说财产平分，女方说孩子归我，律师团轮番上阵。最离谱的是宠物狗都要争抚养权，这剧本编剧都不敢这么写！",
+        "visual": "分屏对比明星夫妻照片配搞笑配音"
+      },
+      {
+        "time": "45-60s",
+        "type": "cta",
+        "text": "你们觉得谁更有理？评论区见！",
+        "visual": "明星卡通头像PK画面"
+      }
+    ],
+    "hashtags": [
+      "#明星离婚",
+      "#吃瓜群众",
+      "#娱乐圈",
+      "#瓜田李下",
+      "#娱乐爆料"
+    ],
+    "bgm_style": "轻松搞笑",
+    "conversion_goal": "涨粉",
+    "difficulty": "低",
+    "estimated_views": "50万-100万",
+    "generate_time": "2026-03-15 17:29:45",
+    "raw_rank": 3,
+    "raw_heat": "3245万"
+  },
+  {
+    "topic": "A股市场大幅波动",
+    "category": "财经",
+    "platform_target": "抖音",
+    "style": "干货知识",
+    "title": "A股暴跌教你3招避险",
+    "hook": "A股暴跌200点！散户如何不被割韭菜？",
+    "segments": [
+      {
+        "time": "0-3s",
+        "type": "hook",
+        "text": "A股暴跌200点！散户如何不被割韭菜？",
+        "visual": "股市K线图暴跌动画+惊悚音效"
+      },
+      {
+        "time": "3-15s",
+        "type": "conflict",
+        "text": "别人恐慌你更要冷静，盲目抄底死得最惨！数据显示70%散户在波动中亏损",
+        "visual": "散户恐慌表情包+数据图表展示"
+      },
+      {
+        "time": "15-45s",
+        "type": "content",
+        "text": "记住3个避险要点：1.设置止损位3-5%，跌破就跑；2.分批建仓，别一把梭哈；3.关注政策面信号，逆周期调节才是机会。记住，现金为王！",
+        "visual": "三点要点动画演示+专家头像解说"
+      },
+      {
+        "time": "45-60s",
+        "type": "cta",
+        "text": "点赞收藏防踩坑，关注我教你看懂财经！",
+        "visual": "点赞手势+个人账号界面"
+      }
+    ],
+    "hashtags": [
+      "#A股暴跌",
+      "#投资避坑",
+      "#理财知识",
+      "#股票技巧",
+      "#财经干货"
+    ],
+    "bgm_style": "悬疑紧张",
+    "conversion_goal": "涨粉",
+    "difficulty": "中",
+    "estimated_views": "50万-100万",
+    "generate_time": "2026-03-15 17:29:45",
+    "raw_rank": 4,
+    "raw_heat": "2987万"
+  },
+  {
+    "topic": "高校自主招生政策调整",
+    "category": "教育",
+    "platform_target": "B站",
+    "style": "干货知识",
+    "title": "自招取消后还有机会吗？",
+    "hook": "自主招生彻底没了？别慌！",
+    "segments": [
+      {
+        "time": "0-3s",
+        "type": "hook",
+        "text": "自主招生彻底没了？别慌！",
+        "visual": "震惊表情包+政策文件截图"
+      },
+      {
+        "time": "3-15s",
+        "type": "conflict",
+        "text": "强基计划取代自招，但录取率不到1%，家长学生都很焦虑",
+        "visual": "焦虑学生和家长表情+数据图表"
+      },
+      {
+        "time": "15-45s",
+        "type": "content",
+        "text": "强基计划重点考查基础学科，数学物理化学要学精。竞赛获奖者仍有机会，综合素质评价更重要。建议提前了解目标院校要求，做好学科规划。",
+        "visual": "学科教材+时间规划表+院校介绍页面"
+      },
+      {
+        "time": "45-60s",
+        "type": "cta",
+        "text": "关注我，获取强基计划详细攻略！",
+        "visual": "UP主头像+关注按钮动画"
+      }
+    ],
+    "hashtags": [
+      "#高考改革",
+      "#强基计划",
+      "#升学规划",
+      "#教育政策",
+      "#高中生家长"
+    ],
+    "bgm_style": "轻松讲解",
+    "conversion_goal": "涨粉",
+    "difficulty": "中",
+    "estimated_views": "50万-100万",
+    "generate_time": "2026-03-15 17:29:45",
+    "raw_rank": 5,
+    "raw_heat": "2654万"
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "start": "2026-03-15 19:03:27",
+  "stages": {
+    "trend": {
+      "count": 100,
+      "time_s": 14.2,
+      "status": "ok"
+    },
+    "script": {
+      "count": 5,
+      "time_s": 61.0,
+      "status": "ok"
+    },
+    "asset": {
+      "count": 5,
+      "time_s": 0.0,
+      "status": "ok"
+    },
+    "produce": {
+      "count": 15,
+      "time_s": 0.3,
+      "status": "ok"
+    },
+    "publish": {
+      "count": 14,
+      "time_s": 0.2,
+      "status": "ok"
+    },
+    "analytics": {
+      "count": 38,
+      "time_s": 0.0,
+      "status": "ok"
+    }
+  },
+  "mode": "实时",
+  "end": "2026-03-15 19:04:43",
+  "total_time_s": 75.8
+}

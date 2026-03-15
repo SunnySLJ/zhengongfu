@@ -1,0 +1,782 @@
+[
+  {
+    "platform": "weibo",
+    "name": "微博",
+    "icon": "◆",
+    "color": "#FF8200",
+    "fetch_time": "2026-03-15 17:15:41",
+    "status": "ok",
+    "trends": [
+      {
+        "rank": 1,
+        "title": "#315晚会今晚直播#",
+        "heat": "热 9.8亿",
+        "category": "社会"
+      },
+      {
+        "rank": 2,
+        "title": "#AI养虾装虾499卸载299#",
+        "heat": "热 5.2亿",
+        "category": "科技"
+      },
+      {
+        "rank": 3,
+        "title": "#理想官宣下半年推出理想i9#",
+        "heat": "热 3.1亿",
+        "category": "财经"
+      },
+      {
+        "rank": 4,
+        "title": "#微信三大功能更新#",
+        "heat": "热 4.6亿",
+        "category": "科技"
+      },
+      {
+        "rank": 5,
+        "title": "#西安不倒翁小姐姐宣布离职#",
+        "heat": "热 2.1亿",
+        "category": "娱乐"
+      },
+      {
+        "rank": 6,
+        "title": "#宁德时代曾毓群分红81亿#",
+        "heat": "热 1.8亿",
+        "category": "财经"
+      },
+      {
+        "rank": 7,
+        "title": "#伊朗30枚导弹袭击以色列#",
+        "heat": "热 1.9亿",
+        "category": "国际"
+      },
+      {
+        "rank": 8,
+        "title": "#WTT重庆孙颖莎不敌蒯曼#",
+        "heat": "热 1.7亿",
+        "category": "体育"
+      },
+      {
+        "rank": 9,
+        "title": "#理想现金储备超1000亿#",
+        "heat": "热 1.5亿",
+        "category": "财经"
+      },
+      {
+        "rank": 10,
+        "title": "#白玉兰奖预测#",
+        "heat": "热 1.3亿",
+        "category": "娱乐"
+      },
+      {
+        "rank": 11,
+        "title": "#OpenClaw安全漏洞#",
+        "heat": "热 1.2亿",
+        "category": "科技"
+      },
+      {
+        "rank": 12,
+        "title": "#妈妈囤黄金3年赚40万#",
+        "heat": "热 1.1亿",
+        "category": "生活"
+      },
+      {
+        "rank": 13,
+        "title": "#腾讯推出WorkBuddy#",
+        "heat": "热 9800万",
+        "category": "科技"
+      },
+      {
+        "rank": 14,
+        "title": "#人社部加大就业扶持#",
+        "heat": "热 9200万",
+        "category": "政策"
+      },
+      {
+        "rank": 15,
+        "title": "#F1中国大奖赛23万人#",
+        "heat": "热 8700万",
+        "category": "体育"
+      },
+      {
+        "rank": 16,
+        "title": "#十五五规划纲要发布#",
+        "heat": "热 8500万",
+        "category": "政策"
+      },
+      {
+        "rank": 17,
+        "title": "#豆包月活1.72亿#",
+        "heat": "热 7900万",
+        "category": "科技"
+      },
+      {
+        "rank": 18,
+        "title": "#字节上线ArkClaw#",
+        "heat": "热 7500万",
+        "category": "科技"
+      },
+      {
+        "rank": 19,
+        "title": "#5岁男童腿疼确诊白血病#",
+        "heat": "热 7200万",
+        "category": "社会"
+      },
+      {
+        "rank": 20,
+        "title": "#格力AWE发布新品#",
+        "heat": "热 6800万",
+        "category": "科技"
+      }
+    ]
+  },
+  {
+    "platform": "douyin",
+    "name": "抖音",
+    "icon": "♪",
+    "color": "#FE2C55",
+    "fetch_time": "2026-03-15 17:15:41",
+    "status": "ok",
+    "trends": [
+      {
+        "rank": 1,
+        "title": "315晚会曝光清单",
+        "heat": "4523万播放",
+        "category": "社会"
+      },
+      {
+        "rank": 2,
+        "title": "豆包AI爆改穿搭",
+        "heat": "3891万播放",
+        "category": "科技"
+      },
+      {
+        "rank": 3,
+        "title": "微信忽略功能社恐福音",
+        "heat": "3244万播放",
+        "category": "科技"
+      },
+      {
+        "rank": 4,
+        "title": "装虾翻车现场",
+        "heat": "2987万播放",
+        "category": "科技"
+      },
+      {
+        "rank": 5,
+        "title": "春天第一杯奶茶",
+        "heat": "2756万播放",
+        "category": "生活"
+      },
+      {
+        "rank": 6,
+        "title": "不倒翁小姐姐最后一舞",
+        "heat": "2534万播放",
+        "category": "娱乐"
+      },
+      {
+        "rank": 7,
+        "title": "理想i9渲染图曝光",
+        "heat": "2198万播放",
+        "category": "科技"
+      },
+      {
+        "rank": 8,
+        "title": "黄金暴涨避坑指南",
+        "heat": "1987万播放",
+        "category": "财经"
+      },
+      {
+        "rank": 9,
+        "title": "帕梅拉春季新课挑战",
+        "heat": "1876万播放",
+        "category": "生活"
+      },
+      {
+        "rank": 10,
+        "title": "孙颖莎赛后采访",
+        "heat": "1754万播放",
+        "category": "体育"
+      },
+      {
+        "rank": 11,
+        "title": "程序员AI养虾日赚万元",
+        "heat": "1632万播放",
+        "category": "科技"
+      },
+      {
+        "rank": 12,
+        "title": "三月穿搭公式",
+        "heat": "1521万播放",
+        "category": "生活"
+      },
+      {
+        "rank": 13,
+        "title": "消费者维权故事",
+        "heat": "1445万播放",
+        "category": "社会"
+      },
+      {
+        "rank": 14,
+        "title": "一人食晚餐vlog",
+        "heat": "1387万播放",
+        "category": "生活"
+      },
+      {
+        "rank": 15,
+        "title": "F1上海站现场",
+        "heat": "1256万播放",
+        "category": "体育"
+      },
+      {
+        "rank": 16,
+        "title": "AI同声传译实测",
+        "heat": "1198万播放",
+        "category": "科技"
+      },
+      {
+        "rank": 17,
+        "title": "办公室减脂餐",
+        "heat": "1087万播放",
+        "category": "生活"
+      },
+      {
+        "rank": 18,
+        "title": "搞笑配音名场面",
+        "heat": "987万播放",
+        "category": "娱乐"
+      },
+      {
+        "rank": 19,
+        "title": "回村创业vlog",
+        "heat": "923万播放",
+        "category": "生活"
+      },
+      {
+        "rank": 20,
+        "title": "伊朗局势进展",
+        "heat": "876万播放",
+        "category": "国际"
+      }
+    ]
+  },
+  {
+    "platform": "xiaohongshu",
+    "name": "小红书",
+    "icon": "📕",
+    "color": "#FF2442",
+    "fetch_time": "2026-03-15 17:15:41",
+    "status": "ok",
+    "trends": [
+      {
+        "rank": 1,
+        "title": "珠圆玉润妆淡颜天菜",
+        "heat": "127万浏览",
+        "category": "生活"
+      },
+      {
+        "rank": 2,
+        "title": "碎钻美甲细碎星光",
+        "heat": "98万浏览",
+        "category": "生活"
+      },
+      {
+        "rank": 3,
+        "title": "笔墨重现课本诗意",
+        "heat": "87万浏览",
+        "category": "教育"
+      },
+      {
+        "rank": 4,
+        "title": "春日穿搭颜色猎手",
+        "heat": "82万浏览",
+        "category": "生活"
+      },
+      {
+        "rank": 5,
+        "title": "315品牌避坑清单",
+        "heat": "76万浏览",
+        "category": "社会"
+      },
+      {
+        "rank": 6,
+        "title": "洱海丁达尔效应",
+        "heat": "71万浏览",
+        "category": "生活"
+      },
+      {
+        "rank": 7,
+        "title": "黄金首饰避坑经历",
+        "heat": "68万浏览",
+        "category": "财经"
+      },
+      {
+        "rank": 8,
+        "title": "一口价黄金千万别买",
+        "heat": "64万浏览",
+        "category": "财经"
+      },
+      {
+        "rank": 9,
+        "title": "豆包穿搭翻车合集",
+        "heat": "59万浏览",
+        "category": "娱乐"
+      },
+      {
+        "rank": 10,
+        "title": "胶囊衣橱30件搞定全年",
+        "heat": "55万浏览",
+        "category": "生活"
+      },
+      {
+        "rank": 11,
+        "title": "三月樱花季赏花攻略",
+        "heat": "52万浏览",
+        "category": "生活"
+      },
+      {
+        "rank": 12,
+        "title": "露营装备平替合集",
+        "heat": "48万浏览",
+        "category": "生活"
+      },
+      {
+        "rank": 13,
+        "title": "F1观赛穿什么",
+        "heat": "45万浏览",
+        "category": "生活"
+      },
+      {
+        "rank": 14,
+        "title": "减脂期外卖怎么点",
+        "heat": "43万浏览",
+        "category": "生活"
+      },
+      {
+        "rank": 15,
+        "title": "通勤妆5分钟出门",
+        "heat": "41万浏览",
+        "category": "生活"
+      },
+      {
+        "rank": 16,
+        "title": "新能源车险怎么买",
+        "heat": "38万浏览",
+        "category": "财经"
+      },
+      {
+        "rank": 17,
+        "title": "AI工具推荐2026版",
+        "heat": "36万浏览",
+        "category": "科技"
+      },
+      {
+        "rank": 18,
+        "title": "理想i8车主体验",
+        "heat": "34万浏览",
+        "category": "生活"
+      },
+      {
+        "rank": 19,
+        "title": "春季过敏自救指南",
+        "heat": "31万浏览",
+        "category": "生活"
+      },
+      {
+        "rank": 20,
+        "title": "职场反PUA话术",
+        "heat": "29万浏览",
+        "category": "教育"
+      }
+    ]
+  },
+  {
+    "platform": "bilibili",
+    "name": "B站",
+    "icon": "▶",
+    "color": "#00A1D6",
+    "fetch_time": "2026-03-15 17:15:41",
+    "status": "ok",
+    "trends": [
+      {
+        "rank": 1,
+        "title": "315特别节目消费陷阱",
+        "heat": "632万播放",
+        "category": "社会"
+      },
+      {
+        "rank": 2,
+        "title": "OpenClaw深度测评",
+        "heat": "487万播放",
+        "category": "科技"
+      },
+      {
+        "rank": 3,
+        "title": "美伊冲突局势全解析",
+        "heat": "423万播放",
+        "category": "国际"
+      },
+      {
+        "rank": 4,
+        "title": "RTX5070实测对比4090",
+        "heat": "398万播放",
+        "category": "科技"
+      },
+      {
+        "rank": 5,
+        "title": "理想i9曝光50万纯电SUV",
+        "heat": "356万播放",
+        "category": "科技"
+      },
+      {
+        "rank": 6,
+        "title": "帕梅拉7天打卡记录",
+        "heat": "312万播放",
+        "category": "生活"
+      },
+      {
+        "rank": 7,
+        "title": "2026.3显卡选购指南",
+        "heat": "287万播放",
+        "category": "科技"
+      },
+      {
+        "rank": 8,
+        "title": "WTT重庆站精彩集锦",
+        "heat": "265万播放",
+        "category": "体育"
+      },
+      {
+        "rank": 9,
+        "title": "AI龙虾大厂横评",
+        "heat": "243万播放",
+        "category": "科技"
+      },
+      {
+        "rank": 10,
+        "title": "RX9070XT vs RTX5070",
+        "heat": "221万播放",
+        "category": "科技"
+      },
+      {
+        "rank": 11,
+        "title": "十五五规划与年轻人",
+        "heat": "198万播放",
+        "category": "政策"
+      },
+      {
+        "rank": 12,
+        "title": "东北话配日漫第三弹",
+        "heat": "187万播放",
+        "category": "娱乐"
+      },
+      {
+        "rank": 13,
+        "title": "微信同声传译实测",
+        "heat": "176万播放",
+        "category": "科技"
+      },
+      {
+        "rank": 14,
+        "title": "一人食治愈料理",
+        "heat": "165万播放",
+        "category": "生活"
+      },
+      {
+        "rank": 15,
+        "title": "DeepSeek vs 豆包对比",
+        "heat": "154万播放",
+        "category": "科技"
+      },
+      {
+        "rank": 16,
+        "title": "F1 2026车队实力分析",
+        "heat": "143万播放",
+        "category": "体育"
+      },
+      {
+        "rank": 17,
+        "title": "曼联vs维拉前瞻",
+        "heat": "132万播放",
+        "category": "体育"
+      },
+      {
+        "rank": 18,
+        "title": "Kimi估值180亿美元",
+        "heat": "121万播放",
+        "category": "财经"
+      },
+      {
+        "rank": 19,
+        "title": "Meta裁员20%投AI",
+        "heat": "112万播放",
+        "category": "科技"
+      },
+      {
+        "rank": 20,
+        "title": "春季开学装备推荐",
+        "heat": "98万播放",
+        "category": "教育"
+      }
+    ]
+  },
+  {
+    "platform": "zhihu",
+    "name": "知乎",
+    "icon": "知",
+    "color": "#0066FF",
+    "fetch_time": "2026-03-15 17:15:41",
+    "status": "ok",
+    "trends": [
+      {
+        "rank": 1,
+        "title": "十五五规划纲要有哪些要点值得关注？",
+        "heat": "243万热度",
+        "category": "政策"
+      },
+      {
+        "rank": 2,
+        "title": "政协委员王亚平透露航天员中心研究地外生存",
+        "heat": "438万热度",
+        "category": "科技"
+      },
+      {
+        "rank": 3,
+        "title": "2026省考笔试结束你的心情怎样？",
+        "heat": "339万热度",
+        "category": "教育"
+      },
+      {
+        "rank": 4,
+        "title": "西安不倒翁小姐姐离职如何看待？",
+        "heat": "204万热度",
+        "category": "娱乐"
+      },
+      {
+        "rank": 5,
+        "title": "伊朗30枚导弹袭击以色列意味着什么？",
+        "heat": "184万热度",
+        "category": "国际"
+      },
+      {
+        "rank": 6,
+        "title": "孙颖莎不敌蒯曼如何评价？",
+        "heat": "169万热度",
+        "category": "体育"
+      },
+      {
+        "rank": 7,
+        "title": "F1中国大奖赛为何越来越火？",
+        "heat": "122万热度",
+        "category": "体育"
+      },
+      {
+        "rank": 8,
+        "title": "AI龙虾OpenClaw安全漏洞怎么看？",
+        "heat": "98万热度",
+        "category": "科技"
+      },
+      {
+        "rank": 9,
+        "title": "315晚会今年会曝光哪些行业？",
+        "heat": "89万热度",
+        "category": "社会"
+      },
+      {
+        "rank": 10,
+        "title": "Anthropic一人撑起营销团队十个月",
+        "heat": "87万热度",
+        "category": "科技"
+      },
+      {
+        "rank": 11,
+        "title": "理想要完成具身智能企业转型",
+        "heat": "76万热度",
+        "category": "科技"
+      },
+      {
+        "rank": 12,
+        "title": "曾毓群分红81亿超10家车企利润合理吗",
+        "heat": "74万热度",
+        "category": "财经"
+      },
+      {
+        "rank": 13,
+        "title": "微信忽略来电功能你怎么看",
+        "heat": "67万热度",
+        "category": "科技"
+      },
+      {
+        "rank": 14,
+        "title": "在家做凉菜如何做出饭店口味",
+        "heat": "54万热度",
+        "category": "生活"
+      },
+      {
+        "rank": 15,
+        "title": "格力2026 AWE新品值得关注什么",
+        "heat": "54万热度",
+        "category": "科技"
+      },
+      {
+        "rank": 16,
+        "title": "博德闪耀是今年欧冠最大黑马吗",
+        "heat": "54万热度",
+        "category": "体育"
+      },
+      {
+        "rank": 17,
+        "title": "Kimi估值180亿美元说明了什么",
+        "heat": "52万热度",
+        "category": "科技"
+      },
+      {
+        "rank": 18,
+        "title": "Meta裁员20%投AI如何评价",
+        "heat": "48万热度",
+        "category": "科技"
+      },
+      {
+        "rank": 19,
+        "title": "电池厂吃肉车企喝汤如何破解",
+        "heat": "45万热度",
+        "category": "财经"
+      },
+      {
+        "rank": 20,
+        "title": "中年人第一辆车选油车纯电还是混动",
+        "heat": "54万热度",
+        "category": "生活"
+      }
+    ]
+  },
+  {
+    "platform": "baidu",
+    "name": "百度",
+    "icon": "BD",
+    "color": "#3388FF",
+    "fetch_time": "2026-03-15 17:15:41",
+    "status": "ok",
+    "trends": [
+      {
+        "rank": 1,
+        "title": "央视315晚会直播",
+        "heat": "极热",
+        "category": "社会"
+      },
+      {
+        "rank": 2,
+        "title": "微信忽略来电功能上线",
+        "heat": "极热",
+        "category": "科技"
+      },
+      {
+        "rank": 3,
+        "title": "理想汽车发布i9纯电SUV",
+        "heat": "极热",
+        "category": "财经"
+      },
+      {
+        "rank": 4,
+        "title": "伊朗导弹袭击以色列",
+        "heat": "极热",
+        "category": "国际"
+      },
+      {
+        "rank": 5,
+        "title": "十五五规划纲要发布",
+        "heat": "热",
+        "category": "政策"
+      },
+      {
+        "rank": 6,
+        "title": "OpenClaw安全问题",
+        "heat": "热",
+        "category": "科技"
+      },
+      {
+        "rank": 7,
+        "title": "宁德时代曾毓群分红81亿",
+        "heat": "热",
+        "category": "财经"
+      },
+      {
+        "rank": 8,
+        "title": "黄金价格创历史新高",
+        "heat": "热",
+        "category": "财经"
+      },
+      {
+        "rank": 9,
+        "title": "孙颖莎WTT止步四强",
+        "heat": "热",
+        "category": "体育"
+      },
+      {
+        "rank": 10,
+        "title": "西安不倒翁小姐姐离职",
+        "heat": "热",
+        "category": "娱乐"
+      },
+      {
+        "rank": 11,
+        "title": "豆包AI月活超1.7亿",
+        "heat": "热",
+        "category": "科技"
+      },
+      {
+        "rank": 12,
+        "title": "F1中国大奖赛创纪录",
+        "heat": "热",
+        "category": "体育"
+      },
+      {
+        "rank": 13,
+        "title": "腾讯推出WorkBuddy",
+        "heat": "热",
+        "category": "科技"
+      },
+      {
+        "rank": 14,
+        "title": "曼联vs维拉争四大战",
+        "heat": "热",
+        "category": "体育"
+      },
+      {
+        "rank": 15,
+        "title": "315消费者维权指南",
+        "heat": "热",
+        "category": "社会"
+      },
+      {
+        "rank": 16,
+        "title": "RTX5070显卡价格",
+        "heat": "热",
+        "category": "科技"
+      },
+      {
+        "rank": 17,
+        "title": "小米miclaw发布",
+        "heat": "热",
+        "category": "科技"
+      },
+      {
+        "rank": 18,
+        "title": "春季流感预防指南",
+        "heat": "热",
+        "category": "生活"
+      },
+      {
+        "rank": 19,
+        "title": "2026省考成绩查询",
+        "heat": "热",
+        "category": "教育"
+      },
+      {
+        "rank": 20,
+        "title": "阿里发布CoPaw",
+        "heat": "热",
+        "category": "科技"
+      }
+    ]
+  }
+]

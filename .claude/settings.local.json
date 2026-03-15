@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd:*)",
+      "Bash(python3:*)",
+      "WebSearch",
+      "Bash(sed:*)",
+      "Bash(open:*)",
+      "WebFetch(domain:app.klingai.com)",
+      "WebFetch(domain:platform.openai.com)",
+      "WebFetch(domain:docs.aimlapi.com)",
+      "WebFetch(domain:docs.pollo.ai)",
+      "WebFetch(domain:qodex.ai)",
+      "WebFetch(domain:www.aifreeapi.com)",
+      "WebFetch(domain:docs.newapi.ai)",
+      "WebFetch(domain:blog.laozhang.ai)",
+      "WebFetch(domain:help.apiyi.com)",
+      "Bash(sleep:*)"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "script_title": "苹果春季发布会最全爆料来了",
+    "topic": "苹果春季发布会新品爆料",
+    "platform": "B站",
+    "prompt": "信息流广告风格，文字标注清晰，专业图表，白底简洁。主题：苹果春季发布会最全爆料来了。场景：苹果logo动画+发布会倒计时特效，用户纠结表情包+各种苹果产品堆叠画面，各产品渲染图展示+参数对比表格。整体风格适合B站平台，科技类内容，画面丰富有吸引力，竖版9:16，时长5-8秒片段。",
+    "task_id": "mock_task_0001_1773567773",
+    "status": "SUCCEEDED",
+    "video_url": "https://example.com/mock_video_0001.mp4",
+    "local_path": "videos/mock_0001.mp4",
+    "duration_s": 5,
+    "size": "1280x720",
+    "model": "wanx2.1-t2v-turbo",
+    "generate_time": "2026-03-15 17:42:53",
+    "cost_note": "模拟数据，未实际生成"
+  },
+  {
+    "script_title": "今年政府工作报告三大亮点",
+    "topic": "全国两会政府工作报告解读",
+    "platform": "微博",
+    "prompt": "新闻播报风格，主播视角，下方字幕滚动。主题：今年政府工作报告三大亮点。场景：两会现场镜头快速切换，经济数据图表动画展示，关键数据可视化呈现，领导人讲话画面穿插。整体风格适合微博平台，政策类内容，画面丰富有吸引力，竖版9:16，时长5-8秒片段。",
+    "task_id": "mock_task_0002_1773567773",
+    "status": "SUCCEEDED",
+    "video_url": "https://example.com/mock_video_0002.mp4",
+    "local_path": "videos/mock_0002.mp4",
+    "duration_s": 5,
+    "size": "1280x720",
+    "model": "wanx2.1-t2v-turbo",
+    "generate_time": "2026-03-15 17:42:53",
+    "cost_note": "模拟数据，未实际生成"
+  },
+  {
+    "script_title": "明星离婚瓜比电视剧还精彩",
+    "topic": "某明星离婚风波",
+    "platform": "抖音",
+    "prompt": "活泼快节奏，对比剪辑，搞笑字幕弹出。主题：明星离婚瓜比电视剧还精彩。场景：夸张表情吃瓜动画，快速剪辑各路八卦截图和表情包，分屏对比明星夫妻照片配搞笑配音。整体风格适合抖音平台，娱乐类内容，画面丰富有吸引力，竖版9:16，时长5-8秒片段。",
+    "task_id": "mock_task_0003_1773567773",
+    "status": "SUCCEEDED",
+    "video_url": "https://example.com/mock_video_0003.mp4",
+    "local_path": "videos/mock_0003.mp4",
+    "duration_s": 5,
+    "size": "1280x720",
+    "model": "wanx2.1-t2v-turbo",
+    "generate_time": "2026-03-15 17:42:53",
+    "cost_note": "模拟数据，未实际生成"
+  }
+]

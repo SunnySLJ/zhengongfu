@@ -1,0 +1,782 @@
+[
+  {
+    "platform": "weibo",
+    "name": "微博",
+    "icon": "◆",
+    "color": "#FF8200",
+    "fetch_time": "2026-03-15 17:21:23",
+    "status": "ok",
+    "trends": [
+      {
+        "rank": 1,
+        "title": "苹果春季发布会新品爆料",
+        "heat": "456万",
+        "category": "科技"
+      },
+      {
+        "rank": 2,
+        "title": "全国两会今日闭幕",
+        "heat": "423万",
+        "category": "政策"
+      },
+      {
+        "rank": 3,
+        "title": "某明星恋情官宣",
+        "heat": "389万",
+        "category": "娱乐"
+      },
+      {
+        "rank": 4,
+        "title": "A股三大指数集体上涨",
+        "heat": "367万",
+        "category": "财经"
+      },
+      {
+        "rank": 5,
+        "title": "东航MU5735航班搜救进展",
+        "heat": "345万",
+        "category": "社会"
+      },
+      {
+        "rank": 6,
+        "title": "俄乌冲突最新局势",
+        "heat": "321万",
+        "category": "国际"
+      },
+      {
+        "rank": 7,
+        "title": "华为Mate50系列发布",
+        "heat": "298万",
+        "category": "科技"
+      },
+      {
+        "rank": 8,
+        "title": "中考体育改革方案",
+        "heat": "276万",
+        "category": "教育"
+      },
+      {
+        "rank": 9,
+        "title": "CBA季后赛赛况",
+        "heat": "254万",
+        "category": "体育"
+      },
+      {
+        "rank": 10,
+        "title": "特斯拉召回部分车型",
+        "heat": "234万",
+        "category": "科技"
+      },
+      {
+        "rank": 11,
+        "title": "新冠疫苗加强针接种",
+        "heat": "223万",
+        "category": "社会"
+      },
+      {
+        "rank": 12,
+        "title": "清明节假期安排",
+        "heat": "212万",
+        "category": "社会"
+      },
+      {
+        "rank": 13,
+        "title": "比特币价格突破新高",
+        "heat": "198万",
+        "category": "财经"
+      },
+      {
+        "rank": 14,
+        "title": "冬奥会吉祥物周边热销",
+        "heat": "187万",
+        "category": "生活"
+      },
+      {
+        "rank": 15,
+        "title": "教育部严控作业总量",
+        "heat": "176万",
+        "category": "教育"
+      },
+      {
+        "rank": 16,
+        "title": "SpaceX星舰发射成功",
+        "heat": "165万",
+        "category": "科技"
+      },
+      {
+        "rank": 17,
+        "title": "恒大债务重组进展",
+        "heat": "154万",
+        "category": "财经"
+      },
+      {
+        "rank": 18,
+        "title": "女足亚洲杯夺冠",
+        "heat": "143万",
+        "category": "体育"
+      },
+      {
+        "rank": 19,
+        "title": "垃圾分类新规实施",
+        "heat": "132万",
+        "category": "社会"
+      },
+      {
+        "rank": 20,
+        "title": "网络直播规范管理",
+        "heat": "121万",
+        "category": "政策"
+      }
+    ]
+  },
+  {
+    "platform": "douyin",
+    "name": "抖音",
+    "icon": "♪",
+    "color": "#FE2C55",
+    "fetch_time": "2026-03-15 17:21:23",
+    "status": "ok",
+    "trends": [
+      {
+        "rank": 1,
+        "title": "苹果春季发布会新品爆料",
+        "heat": "847万",
+        "category": "科技"
+      },
+      {
+        "rank": 2,
+        "title": "新电影上映票房破纪录",
+        "heat": "756万",
+        "category": "娱乐"
+      },
+      {
+        "rank": 3,
+        "title": "春季求职招聘高峰来临",
+        "heat": "698万",
+        "category": "社会"
+      },
+      {
+        "rank": 4,
+        "title": "央行最新货币政策解读",
+        "heat": "645万",
+        "category": "财经"
+      },
+      {
+        "rank": 5,
+        "title": "世界杯预选赛精彩瞬间",
+        "heat": "587万",
+        "category": "体育"
+      },
+      {
+        "rank": 6,
+        "title": "新能源汽车政策新规",
+        "heat": "534万",
+        "category": "政策"
+      },
+      {
+        "rank": 7,
+        "title": "春季养生健康小贴士",
+        "heat": "492万",
+        "category": "生活"
+      },
+      {
+        "rank": 8,
+        "title": "高校自主招生简章发布",
+        "heat": "456万",
+        "category": "教育"
+      },
+      {
+        "rank": 9,
+        "title": "国际峰会外交动态",
+        "heat": "423万",
+        "category": "国际"
+      },
+      {
+        "rank": 10,
+        "title": "网红带货直播翻车事件",
+        "heat": "398万",
+        "category": "娱乐"
+      },
+      {
+        "rank": 11,
+        "title": "人工智能技术突破",
+        "heat": "376万",
+        "category": "科技"
+      },
+      {
+        "rank": 12,
+        "title": "明星恋情曝光引发热议",
+        "heat": "354万",
+        "category": "娱乐"
+      },
+      {
+        "rank": 13,
+        "title": "食品安全抽检结果公布",
+        "heat": "332万",
+        "category": "社会"
+      },
+      {
+        "rank": 14,
+        "title": "股市震荡调整行情分析",
+        "heat": "318万",
+        "category": "财经"
+      },
+      {
+        "rank": 15,
+        "title": "奥运会备战最新进展",
+        "heat": "297万",
+        "category": "体育"
+      },
+      {
+        "rank": 16,
+        "title": "个税专项附加扣除更新",
+        "heat": "276万",
+        "category": "政策"
+      },
+      {
+        "rank": 17,
+        "title": "春季家装消费趋势报告",
+        "heat": "258万",
+        "category": "生活"
+      },
+      {
+        "rank": 18,
+        "title": "在线教育平台监管加强",
+        "heat": "243万",
+        "category": "教育"
+      },
+      {
+        "rank": 19,
+        "title": "全球气候变化峰会召开",
+        "heat": "229万",
+        "category": "国际"
+      },
+      {
+        "rank": 20,
+        "title": "快递行业服务标准提升",
+        "heat": "215万",
+        "category": "社会"
+      }
+    ]
+  },
+  {
+    "platform": "xiaohongshu",
+    "name": "小红书",
+    "icon": "📕",
+    "color": "#FF2442",
+    "fetch_time": "2026-03-15 17:21:23",
+    "status": "ok",
+    "trends": [
+      {
+        "rank": 1,
+        "title": "春日穿搭指南",
+        "heat": "847.2万",
+        "category": "生活"
+      },
+      {
+        "rank": 2,
+        "title": "护肤成分科普",
+        "heat": "756.8万",
+        "category": "生活"
+      },
+      {
+        "rank": 3,
+        "title": "春季美食推荐",
+        "heat": "698.5万",
+        "category": "生活"
+      },
+      {
+        "rank": 4,
+        "title": "旅行攻略分享",
+        "heat": "623.1万",
+        "category": "生活"
+      },
+      {
+        "rank": 5,
+        "title": "家居改造灵感",
+        "heat": "587.3万",
+        "category": "生活"
+      },
+      {
+        "rank": 6,
+        "title": "健身打卡日记",
+        "heat": "542.7万",
+        "category": "生活"
+      },
+      {
+        "rank": 7,
+        "title": "美妆好物测评",
+        "heat": "518.9万",
+        "category": "生活"
+      },
+      {
+        "rank": 8,
+        "title": "手工DIY教程",
+        "heat": "489.6万",
+        "category": "生活"
+      },
+      {
+        "rank": 9,
+        "title": "宠物日常记录",
+        "heat": "467.4万",
+        "category": "生活"
+      },
+      {
+        "rank": 10,
+        "title": "读书心得分享",
+        "heat": "435.2万",
+        "category": "生活"
+      },
+      {
+        "rank": 11,
+        "title": "职场经验交流",
+        "heat": "412.8万",
+        "category": "生活"
+      },
+      {
+        "rank": 12,
+        "title": "恋爱话题讨论",
+        "heat": "398.5万",
+        "category": "生活"
+      },
+      {
+        "rank": 13,
+        "title": "亲子育儿经验",
+        "heat": "376.9万",
+        "category": "生活"
+      },
+      {
+        "rank": 14,
+        "title": "摄影技巧分享",
+        "heat": "354.7万",
+        "category": "生活"
+      },
+      {
+        "rank": 15,
+        "title": "烘焙制作过程",
+        "heat": "338.4万",
+        "category": "生活"
+      },
+      {
+        "rank": 16,
+        "title": "舞蹈学习记录",
+        "heat": "315.6万",
+        "category": "生活"
+      },
+      {
+        "rank": 17,
+        "title": "音乐分享推荐",
+        "heat": "298.3万",
+        "category": "娱乐"
+      },
+      {
+        "rank": 18,
+        "title": "电影观后感",
+        "heat": "287.1万",
+        "category": "娱乐"
+      },
+      {
+        "rank": 19,
+        "title": "明星时尚造型",
+        "heat": "274.8万",
+        "category": "娱乐"
+      },
+      {
+        "rank": 20,
+        "title": "游戏体验分享",
+        "heat": "263.5万",
+        "category": "科技"
+      }
+    ]
+  },
+  {
+    "platform": "bilibili",
+    "name": "B站",
+    "icon": "▶",
+    "color": "#00A1D6",
+    "fetch_time": "2026-03-15 17:21:23",
+    "status": "ok",
+    "trends": [
+      {
+        "rank": 1,
+        "title": "苹果春季发布会新品爆料",
+        "heat": "456万",
+        "category": "科技"
+      },
+      {
+        "rank": 2,
+        "title": "新番《咒术回战》第二季开播",
+        "heat": "389万",
+        "category": "娱乐"
+      },
+      {
+        "rank": 3,
+        "title": "春季求职高峰期来临",
+        "heat": "342万",
+        "category": "社会"
+      },
+      {
+        "rank": 4,
+        "title": "央行降准释放流动性",
+        "heat": "321万",
+        "category": "财经"
+      },
+      {
+        "rank": 5,
+        "title": "WCBA总决赛开战",
+        "heat": "298万",
+        "category": "体育"
+      },
+      {
+        "rank": 6,
+        "title": "两会代表委员热议民生",
+        "heat": "276万",
+        "category": "政策"
+      },
+      {
+        "rank": 7,
+        "title": "春菜上市价格走势",
+        "heat": "254万",
+        "category": "生活"
+      },
+      {
+        "rank": 8,
+        "title": "考研国家线公布",
+        "heat": "233万",
+        "category": "教育"
+      },
+      {
+        "rank": 9,
+        "title": "中欧经贸合作新进展",
+        "heat": "212万",
+        "category": "国际"
+      },
+      {
+        "rank": 10,
+        "title": "AI绘画大赛获奖作品",
+        "heat": "198万",
+        "category": "科技"
+      },
+      {
+        "rank": 11,
+        "title": "偶像团体春季演唱会",
+        "heat": "187万",
+        "category": "娱乐"
+      },
+      {
+        "rank": 12,
+        "title": "食品安全专项整治",
+        "heat": "176万",
+        "category": "社会"
+      },
+      {
+        "rank": 13,
+        "title": "比特币价格波动分析",
+        "heat": "165万",
+        "category": "财经"
+      },
+      {
+        "rank": 14,
+        "title": "女足亚洲杯预选赛",
+        "heat": "154万",
+        "category": "体育"
+      },
+      {
+        "rank": 15,
+        "title": "个税优惠政策解读",
+        "heat": "143万",
+        "category": "政策"
+      },
+      {
+        "rank": 16,
+        "title": "春季家装消费指南",
+        "heat": "132万",
+        "category": "生活"
+      },
+      {
+        "rank": 17,
+        "title": "高校招生政策调整",
+        "heat": "121万",
+        "category": "教育"
+      },
+      {
+        "rank": 18,
+        "title": "俄乌冲突最新动态",
+        "heat": "110万",
+        "category": "国际"
+      },
+      {
+        "rank": 19,
+        "title": "5G基站建设新突破",
+        "heat": "99万",
+        "category": "科技"
+      },
+      {
+        "rank": 20,
+        "title": "明星直播带货翻车",
+        "heat": "88万",
+        "category": "娱乐"
+      }
+    ]
+  },
+  {
+    "platform": "zhihu",
+    "name": "知乎",
+    "icon": "知",
+    "color": "#0066FF",
+    "fetch_time": "2026-03-15 17:21:23",
+    "status": "ok",
+    "trends": [
+      {
+        "rank": 1,
+        "title": "如何看待华为发布全新麒麟芯片",
+        "heat": "847.2万",
+        "category": "科技"
+      },
+      {
+        "rank": 2,
+        "title": "周杰伦演唱会门票秒售罄",
+        "heat": "623.8万",
+        "category": "娱乐"
+      },
+      {
+        "rank": 3,
+        "title": "全国多地出现强降雨天气",
+        "heat": "598.1万",
+        "category": "社会"
+      },
+      {
+        "rank": 4,
+        "title": "A股三大指数集体上涨",
+        "heat": "542.6万",
+        "category": "财经"
+      },
+      {
+        "rank": 5,
+        "title": "CBA季后赛今日开赛",
+        "heat": "487.3万",
+        "category": "体育"
+      },
+      {
+        "rank": 6,
+        "title": "教育部发布新就业政策",
+        "heat": "456.7万",
+        "category": "教育"
+      },
+      {
+        "rank": 7,
+        "title": "特斯拉中国工厂停产整顿",
+        "heat": "432.1万",
+        "category": "科技"
+      },
+      {
+        "rank": 8,
+        "title": "明星离婚传闻引发热议",
+        "heat": "415.9万",
+        "category": "娱乐"
+      },
+      {
+        "rank": 9,
+        "title": "央行降准释放流动性",
+        "heat": "398.4万",
+        "category": "财经"
+      },
+      {
+        "rank": 10,
+        "title": "北京冬奥会场馆对公众开放",
+        "heat": "376.2万",
+        "category": "体育"
+      },
+      {
+        "rank": 11,
+        "title": "社区养老服务新模式试点",
+        "heat": "354.8万",
+        "category": "社会"
+      },
+      {
+        "rank": 12,
+        "title": "中美贸易谈判最新进展",
+        "heat": "332.5万",
+        "category": "国际"
+      },
+      {
+        "rank": 13,
+        "title": "新能源汽车销量创新高",
+        "heat": "321.7万",
+        "category": "科技"
+      },
+      {
+        "rank": 14,
+        "title": "春季高考报名今日截止",
+        "heat": "308.9万",
+        "category": "教育"
+      },
+      {
+        "rank": 15,
+        "title": "食品安全新规正式实施",
+        "heat": "296.3万",
+        "category": "政策"
+      },
+      {
+        "rank": 16,
+        "title": "电竞世界杯中国队夺冠",
+        "heat": "284.7万",
+        "category": "体育"
+      },
+      {
+        "rank": 17,
+        "title": "共享经济监管政策出台",
+        "heat": "273.1万",
+        "category": "政策"
+      },
+      {
+        "rank": 18,
+        "title": "人工智能医疗应用突破",
+        "heat": "261.5万",
+        "category": "科技"
+      },
+      {
+        "rank": 19,
+        "title": "清明节假期旅游预订火爆",
+        "heat": "249.8万",
+        "category": "生活"
+      },
+      {
+        "rank": 20,
+        "title": "垃圾分类执行情况调查",
+        "heat": "238.2万",
+        "category": "社会"
+      }
+    ]
+  },
+  {
+    "platform": "baidu",
+    "name": "百度",
+    "icon": "BD",
+    "color": "#3388FF",
+    "fetch_time": "2026-03-15 17:21:23",
+    "status": "ok",
+    "trends": [
+      {
+        "rank": 1,
+        "title": "全国两会闭幕",
+        "heat": "845万",
+        "category": "政策"
+      },
+      {
+        "rank": 2,
+        "title": "苹果春季发布会",
+        "heat": "720万",
+        "category": "科技"
+      },
+      {
+        "rank": 3,
+        "title": "王楚钦孙颖莎夺冠",
+        "heat": "650万",
+        "category": "体育"
+      },
+      {
+        "rank": 4,
+        "title": "油价下调",
+        "heat": "580万",
+        "category": "财经"
+      },
+      {
+        "rank": 5,
+        "title": "新剧《玫瑰的故事》开播",
+        "heat": "520万",
+        "category": "娱乐"
+      },
+      {
+        "rank": 6,
+        "title": "高校毕业生就业",
+        "heat": "480万",
+        "category": "教育"
+      },
+      {
+        "rank": 7,
+        "title": "日本核污染水排海",
+        "heat": "450万",
+        "category": "国际"
+      },
+      {
+        "rank": 8,
+        "title": "特斯拉降价",
+        "heat": "420万",
+        "category": "科技"
+      },
+      {
+        "rank": 9,
+        "title": "清明节放假安排",
+        "heat": "390万",
+        "category": "生活"
+      },
+      {
+        "rank": 10,
+        "title": "ChatGPT收费升级",
+        "heat": "360万",
+        "category": "科技"
+      },
+      {
+        "rank": 11,
+        "title": "恒大债务重组",
+        "heat": "340万",
+        "category": "财经"
+      },
+      {
+        "rank": 12,
+        "title": "冬奥会吉祥物周边",
+        "heat": "320万",
+        "category": "体育"
+      },
+      {
+        "rank": 13,
+        "title": "春季流感预防",
+        "heat": "300万",
+        "category": "生活"
+      },
+      {
+        "rank": 14,
+        "title": "明星离婚传闻",
+        "heat": "280万",
+        "category": "娱乐"
+      },
+      {
+        "rank": 15,
+        "title": "数字货币试点扩容",
+        "heat": "260万",
+        "category": "财经"
+      },
+      {
+        "rank": 16,
+        "title": "火星探测进展",
+        "heat": "240万",
+        "category": "科技"
+      },
+      {
+        "rank": 17,
+        "title": "校园食品安全",
+        "heat": "220万",
+        "category": "社会"
+      },
+      {
+        "rank": 18,
+        "title": "中美贸易谈判",
+        "heat": "200万",
+        "category": "国际"
+      },
+      {
+        "rank": 19,
+        "title": "养老保险调整",
+        "heat": "180万",
+        "category": "政策"
+      },
+      {
+        "rank": 20,
+        "title": "春季旅游攻略",
+        "heat": "160万",
+        "category": "生活"
+      }
+    ]
+  }
+]
