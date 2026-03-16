@@ -11,6 +11,7 @@ import {
   BarChartOutlined,
   FileImageOutlined,
   BulbOutlined,
+  RocketOutlined,
 } from '@ant-design/icons'
 import { useNavigate, useLocation } from 'react-router-dom'
 import type { MenuProps } from 'antd'
@@ -22,6 +23,11 @@ const items: MenuItem[] = [
     key: '/',
     icon: <HomeOutlined />,
     label: '首页工作台',
+  },
+  {
+    key: '/zhengongfu',
+    icon: <RocketOutlined />,
+    label: '帧功夫',
   },
   {
     key: 'academy',

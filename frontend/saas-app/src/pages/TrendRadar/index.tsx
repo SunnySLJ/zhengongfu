@@ -1,11 +1,14 @@
-import { useState, useMemo } from 'react'
-import { Divider } from 'antd'
+import { useState, useMemo, useEffect, useCallback } from 'react'
+import { Divider, Button, Spin, message } from 'antd'
+import { ReloadOutlined } from '@ant-design/icons'
 import FilterBar from '../Copywriting/FilterBar'
 import TrendCard from './TrendCard'
 import TrendDetail from './TrendDetail'
-import { mockTrends, TREND_PLATFORMS } from './mockData'
+import VideoCopyModal from './VideoCopyModal'
+import { TREND_PLATFORMS } from './mockData'
 import { INDUSTRIES } from '../../constants/filters'
 import type { TrendItem } from './mockData'
+import { fetchDouyinTrends } from '../../services/trendApi'
 
 type SortKey = 'heat' | 'rising' | 'videoCount'
 
@@ -16,15 +19,36 @@ const SORT_OPTIONS: { key: SortKey; label: string }[] = [
 ]
 
 export default function TrendRadarPage() {
-  const [platform, setPlatform]   = useState('')
+  const [platform, setPlatform]   = useState('douyin')
   const [industry, setIndustry]   = useState('')
   const [sort, setSort]           = useState<SortKey>('heat')
   const [selected, setSelected]   = useState<TrendItem | null>(null)
-  const [trends, setTrends]       = useState(mockTrends)
+  const [trends, setTrends]       = useState<TrendItem[]>([])
+  const [loading, setLoading]     = useState(false)
+  const [fetchTime, setFetchTime] = useState('')
+  const [copyTarget, setCopyTarget] = useState<TrendItem | null>(null)
+
+  const loadTrends = useCallback(async () => {
+    setLoading(true)
+    try {
+      const data = await fetchDouyinTrends()
+      setTrends(data.trends)
+      setFetchTime(data.fetchTime)
+      message.success(`已获取 ${data.trends.length} 条抖音热点`)
+    } catch (err) {
+      message.error(`获取热点失败: ${err instanceof Error ? err.message : '未知错误'}`)
+    } finally {
+      setLoading(false)
+    }
+  }, [])
+
+  useEffect(() => {
+    loadTrends()
+  }, [loadTrends])
 
   const filtered = useMemo(() => {
     let list = trends
-    if (platform) list = list.filter((t) => t.platform === platform)
+    if (platform && platform !== 'douyin') list = list.filter((t) => t.platform === platform)
     if (industry) list = list.filter((t) => t.industry === industry)
     return [...list].sort((a, b) => {
       if (sort === 'heat')       return b.heatScore - a.heatScore
@@ -38,15 +62,28 @@ export default function TrendRadarPage() {
     setTrends((prev) =>
       prev.map((t) => t.id === id ? { ...t, isFavorited: !t.isFavorited } : t)
     )
-    // sync detail panel if open
     setSelected((prev) => prev?.id === id ? { ...prev, isFavorited: !prev.isFavorited } : prev)
   }
 
   return (
     <div style={{ padding: '20px 24px', minHeight: '100vh', background: '#f5f5f5' }}>
       {/* Page header */}
-      <div style={{ marginBottom: 16 }}>
-        <h2 style={{ margin: 0, fontSize: 18, fontWeight: 600, color: '#1a1a1a' }}>热点雷达</h2>
+      <div style={{ marginBottom: 16, display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+        <div>
+          <h2 style={{ margin: 0, fontSize: 18, fontWeight: 600, color: '#1a1a1a' }}>热点雷达</h2>
+          {fetchTime && (
+            <span style={{ fontSize: 12, color: '#bfbfbf' }}>
+              更新于 {fetchTime}
+            </span>
+          )}
+        </div>
+        <Button
+          icon={<ReloadOutlined spin={loading} />}
+          onClick={loadTrends}
+          loading={loading}
+        >
+          刷新热点
+        </Button>
       </div>
 
       {/* Filters */}
@@ -87,7 +124,12 @@ export default function TrendRadarPage() {
       </div>
 
       {/* Grid */}
-      {filtered.length === 0 ? (
+      {loading && trends.length === 0 ? (
+        <div style={{ textAlign: 'center', padding: '80px 0' }}>
+          <Spin size="large" />
+          <div style={{ marginTop: 16, color: '#8c8c8c' }}>正在获取抖音热点数据...</div>
+        </div>
+      ) : filtered.length === 0 ? (
         <div style={{ textAlign: 'center', padding: '80px 0', color: '#bfbfbf' }}>
           <div style={{ fontSize: 40, marginBottom: 12 }}>📡</div>
           <div>暂无符合条件的热点</div>
@@ -109,7 +151,18 @@ export default function TrendRadarPage() {
         </div>
       )}
 
-      <TrendDetail item={selected} onClose={() => setSelected(null)} />
+      <TrendDetail
+        item={selected}
+        onClose={() => setSelected(null)}
+        onGenCopy={(item) => setCopyTarget(item)}
+      />
+
+      <VideoCopyModal
+        topic={copyTarget?.title || ''}
+        description={copyTarget?.description || ''}
+        open={!!copyTarget}
+        onClose={() => setCopyTarget(null)}
+      />
     </div>
   )
 }

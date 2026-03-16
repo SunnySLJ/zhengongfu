@@ -1,5 +1,5 @@
 import { Modal, Tag, Button, Tooltip, Divider } from 'antd'
-import { CopyOutlined, VideoCameraAddOutlined, EditOutlined, FireOutlined, RiseOutlined, FallOutlined, LinkOutlined } from '@ant-design/icons'
+import { CopyOutlined, VideoCameraAddOutlined, FireOutlined, RiseOutlined, FallOutlined, LinkOutlined, FileTextOutlined, PlayCircleOutlined } from '@ant-design/icons'
 import { useNavigate } from 'react-router-dom'
 import { message } from 'antd'
 import { PLATFORM_CFG } from './mockData'
@@ -9,9 +9,10 @@ import { INDUSTRY_LABEL } from '../../constants/filters'
 interface Props {
   item: TrendItem | null
   onClose: () => void
+  onGenCopy?: (item: TrendItem) => void
 }
 
-export default function TrendDetail({ item, onClose }: Props) {
+export default function TrendDetail({ item, onClose, onGenCopy }: Props) {
   const navigate = useNavigate()
   if (!item) return null
   const pc = PLATFORM_CFG[item.platform]
@@ -117,19 +118,29 @@ export default function TrendDetail({ item, onClose }: Props) {
 
       <div style={{ fontWeight: 500, marginBottom: 12 }}>快捷创作</div>
       <div style={{ display: 'flex', gap: 8, marginBottom: 10 }}>
-        <Button block icon={<EditOutlined />} onClick={() => { navigate('/copywriting'); onClose() }}>
-          参考爆款文案
+        <Button block icon={<FileTextOutlined />} style={{ borderColor: '#7B61FF', color: '#7B61FF' }}
+          onClick={() => { onGenCopy?.(item); onClose() }}>
+          📝 生成文案
         </Button>
         <Button block type="primary" icon={<VideoCameraAddOutlined />}
           onClick={() => { message.success(`已跳转视频生成：${item.title}`); navigate('/video-gen'); onClose() }}>
           生成视频
         </Button>
       </div>
-      <a href={item.link} target="_blank" rel="noopener noreferrer" style={{ display: 'block' }}>
-        <Button block icon={<LinkOutlined />}>
-          前往 {PLATFORM_CFG[item.platform].label} 查看热点
-        </Button>
-      </a>
+      <div style={{ display: 'flex', gap: 8 }}>
+        {item.videoUrl && (
+          <a href={item.videoUrl} target="_blank" rel="noopener noreferrer" style={{ flex: 1 }}>
+            <Button block icon={<PlayCircleOutlined />} style={{ borderColor: '#FE2C55', color: '#FE2C55' }}>
+              ▶ 观看视频
+            </Button>
+          </a>
+        )}
+        <a href={item.link} target="_blank" rel="noopener noreferrer" style={{ flex: 1 }}>
+          <Button block icon={<LinkOutlined />}>
+            前往 {PLATFORM_CFG[item.platform].label} 搜索
+          </Button>
+        </a>
+      </div>
     </Modal>
   )
 }

@@ -132,12 +132,18 @@ export default function TrendCard({ item, onClick, onFav }: Props) {
         </div>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginTop: 2 }}>
           <div style={{ fontSize: 12, color: '#8c8c8c' }}>
-            相关视频
-            <span style={{ fontWeight: 600, color: '#595959', marginLeft: 4 }}>
-              {item.videoCount >= 10000
-                ? `${(item.videoCount / 10000).toFixed(1)}w+`
-                : item.videoCount.toLocaleString()}
-            </span>
+            {item.heatText ? (
+              <span style={{ fontWeight: 600, color: '#ff4d4f' }}>{item.heatText}</span>
+            ) : (
+              <>
+                相关视频
+                <span style={{ fontWeight: 600, color: '#595959', marginLeft: 4 }}>
+                  {item.videoCount >= 10000
+                    ? `${(item.videoCount / 10000).toFixed(1)}w+`
+                    : item.videoCount.toLocaleString()}
+                </span>
+              </>
+            )}
           </div>
           <a
             href={item.link}

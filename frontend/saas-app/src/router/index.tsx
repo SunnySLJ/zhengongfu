@@ -13,9 +13,18 @@ import BatchMixPage from '../pages/BatchMix'
 import VideoGenPage from '../pages/VideoGen'
 import DistributionPage from '../pages/Distribution'
 import TrendRadarPage from '../pages/TrendRadar'
+import ZhenGongFuPage from '../pages/ZhenGongFu'
 import PromptLibPage from '../pages/PromptLib'
 
 export const router = createBrowserRouter([
+  ...(import.meta.env.DEV
+    ? [
+        {
+          path: '/zhengongfu',
+          element: <ZhenGongFuPage />,
+        },
+      ]
+    : []),
   {
     path: '/login',
     element: <AuthPage />,
@@ -29,6 +38,8 @@ export const router = createBrowserRouter([
     ),
     children: [
       { index: true, element: <PlaceholderPage title="首页工作台" /> },
+      // 帧功夫
+      { path: 'zhengongfu', element: <ZhenGongFuPage /> },
       // 流量学院
       { path: 'trend-radar', element: <TrendRadarPage /> },
       { path: 'copywriting', element: <CopywritingPage /> },

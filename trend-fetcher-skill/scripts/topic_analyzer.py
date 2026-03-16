@@ -12,10 +12,10 @@ QWEN_BASE_URL = "https://coding.dashscope.aliyuncs.com/v1"
 QWEN_MODEL    = "qwen3-coder-plus"
 
 # 豆包（备用）
-DOUBAO_API_KEY     = os.environ.get("DOUBAO_API_KEY", "api-key-20250402164055")
+DOUBAO_API_KEY     = "6f876e44-60d3-4a87-8669-44d2f809b12e"
 DOUBAO_BASE_URL    = "https://ark.cn-beijing.volces.com/api/v3"
-DOUBAO_ENDPOINT_ID = "6f876e44-60d3-4a87-8669-44d2f809b12e"   # 推理接入点 ID
-DOUBAO_MODELS      = [DOUBAO_ENDPOINT_ID, "doubao-pro-32k", "doubao-1-5-pro-32k"]
+DOUBAO_MODEL       = "doubao-1-5-pro-32k-250115"
+DOUBAO_MODELS      = [DOUBAO_MODEL]
 
 TIMESTAMP = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
@@ -79,8 +79,8 @@ def call_llm(prompt, max_tokens=3000):
         print(f"  [Qwen] {ex}, 切换豆包...", file=sys.stderr)
     # 备用：豆包（使用推理接入点 ID）
     try:
-        result = _http_llm(DOUBAO_BASE_URL, DOUBAO_API_KEY, DOUBAO_ENDPOINT_ID, prompt, max_tokens)
-        _active_model = DOUBAO_ENDPOINT_ID
+        result = _http_llm(DOUBAO_BASE_URL, DOUBAO_API_KEY, DOUBAO_MODEL, prompt, max_tokens)
+        _active_model = DOUBAO_MODEL
         return result
     except urllib.error.HTTPError as e:
         err = e.read().decode()[:200]

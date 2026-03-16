@@ -1,28 +1,62 @@
-import { useState, useMemo } from 'react'
+import { useMemo, useState } from 'react'
 import {
-  Input, Tag, Button, Modal, Form, Select, message,
-  Tooltip, Tabs, Empty, Popconfirm,
+  Button,
+  Empty,
+  Form,
+  Input,
+  message,
+  Modal,
+  Popconfirm,
+  Select,
+  Tabs,
+  Tag,
+  Tooltip,
 } from 'antd'
 import {
-  BulbOutlined, CopyOutlined, StarOutlined, StarFilled,
-  PlusOutlined, EditOutlined, DeleteOutlined, VideoCameraAddOutlined,
+  BulbOutlined,
+  CopyOutlined,
+  DeleteOutlined,
+  EditOutlined,
+  PlusOutlined,
+  StarFilled,
+  StarOutlined,
+  VideoCameraAddOutlined,
 } from '@ant-design/icons'
 import { useNavigate } from 'react-router-dom'
 import { mockPrompts } from './mockData'
-import type { PromptItem, PromptCategory } from './mockData'
+import type { PromptCategory, PromptItem } from './mockData'
 
 const { TextArea } = Input
 
-const CATEGORIES: PromptCategory[] = ['风格', '场景', '产品', '人物', '氛围', '运镜']
+const CATEGORIES: PromptCategory[] = [
+  '短剧叙事',
+  '人物角色',
+  '场景空间',
+  '镜头运动',
+  '光影氛围',
+  '产品广告',
+  '口播带货',
+  '知识自媒体',
+  '转场特效',
+  '风格质感',
+]
 
 const CATEGORY_COLOR: Record<PromptCategory, string> = {
-  风格: 'purple', 场景: 'blue', 产品: 'green',
-  人物: 'orange', 氛围: 'pink', 运镜: 'cyan',
+  短剧叙事: 'magenta',
+  人物角色: 'gold',
+  场景空间: 'blue',
+  镜头运动: 'cyan',
+  光影氛围: 'purple',
+  产品广告: 'green',
+  口播带货: 'volcano',
+  知识自媒体: 'geekblue',
+  转场特效: 'lime',
+  风格质感: 'orange',
 }
 
 function UseBadge({ count }: { count: number }) {
-  const label = count >= 1000 ? (count / 1000).toFixed(1) + 'k' : String(count)
-  return <span style={{ color: '#bbb', fontSize: 12 }}>使用 {label} 次</span>
+  const label = count >= 1000 ? `${(count / 1000).toFixed(1)}k` : String(count)
+  return <span style={{ color: '#8c8c8c', fontSize: 12 }}>使用 {label} 次</span>
 }
 
 interface CreateForm {
@@ -44,33 +78,32 @@ export default function PromptLibPage() {
   const navigate = useNavigate()
 
   const filtered = useMemo(() => {
-    return prompts.filter((p) => {
-      if (tabKey === 'favorites' && !p.isFavorited) return false
-      if (tabKey === 'custom' && !p.isCustom) return false
-      if (activeCategory !== 'all' && p.category !== activeCategory) return false
-      if (keyword && !p.title.includes(keyword) && !p.prompt.includes(keyword) && !p.promptZh.includes(keyword)) return false
-      return true
+    return prompts.filter((item) => {
+      if (tabKey === 'favorites' && !item.isFavorited) return false
+      if (tabKey === 'custom' && !item.isCustom) return false
+      if (activeCategory !== 'all' && item.category !== activeCategory) return false
+
+      if (!keyword) return true
+
+      const text = [item.title, item.prompt, item.promptZh, item.tags.join(' ')].join(' ').toLowerCase()
+      return text.includes(keyword.toLowerCase())
     })
-  }, [prompts, tabKey, activeCategory, keyword])
+  }, [activeCategory, keyword, prompts, tabKey])
 
   function handleCopy(item: PromptItem) {
     navigator.clipboard.writeText(item.prompt).then(() => {
       message.success('提示词已复制')
-      setPrompts((prev) =>
-        prev.map((p) => p.id === item.id ? { ...p, useCount: p.useCount + 1 } : p)
-      )
+      setPrompts((prev) => prev.map((p) => (p.id === item.id ? { ...p, useCount: p.useCount + 1 } : p)))
     })
   }
 
   function toggleFav(id: string) {
-    setPrompts((prev) =>
-      prev.map((p) => p.id === id ? { ...p, isFavorited: !p.isFavorited } : p)
-    )
+    setPrompts((prev) => prev.map((p) => (p.id === id ? { ...p, isFavorited: !p.isFavorited } : p)))
   }
 
   function handleDelete(id: string) {
     setPrompts((prev) => prev.filter((p) => p.id !== id))
-    message.success('已删除')
+    message.success('提示词已删除')
   }
 
   function openCreate() {
@@ -92,21 +125,34 @@ export default function PromptLibPage() {
   }
 
   function handleSave(values: CreateForm) {
-    const tags = values.tags.split(/[，,\s]+/).map((t) => t.trim()).filter(Boolean)
+    const tags = values.tags
+      .split(/[，,\s]+/)
+      .map((tag) => tag.trim())
+      .filter(Boolean)
+
     if (editTarget) {
       setPrompts((prev) =>
         prev.map((p) =>
-          p.id === editTarget.id ? { ...p, ...values, tags } : p
-        )
+          p.id === editTarget.id
+            ? {
+                ...p,
+                title: values.title,
+                category: values.category,
+                prompt: values.prompt,
+                promptZh: values.promptZh,
+                tags,
+              }
+            : p,
+        ),
       )
-      message.success('已更新')
+      message.success('提示词已更新')
     } else {
       const newItem: PromptItem = {
-        id: 'p_' + Date.now(),
+        id: `p_${Date.now()}`,
         title: values.title,
+        category: values.category,
         prompt: values.prompt,
         promptZh: values.promptZh,
-        category: values.category,
         tags,
         useCount: 0,
         isFavorited: false,
@@ -116,23 +162,33 @@ export default function PromptLibPage() {
       setPrompts((prev) => [newItem, ...prev])
       message.success('提示词已创建')
     }
+
     setCreateOpen(false)
   }
 
-  const favCount = prompts.filter((p) => p.isFavorited).length
-  const customCount = prompts.filter((p) => p.isCustom).length
+  const favoriteCount = prompts.filter((item) => item.isFavorited).length
+  const customCount = prompts.filter((item) => item.isCustom).length
 
   return (
     <div style={{ padding: 24 }}>
-      {/* Header */}
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: 20 }}>
+      <div
+        style={{
+          display: 'flex',
+          justifyContent: 'space-between',
+          alignItems: 'flex-start',
+          gap: 16,
+          marginBottom: 20,
+          flexWrap: 'wrap',
+        }}
+      >
         <div>
           <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
             <BulbOutlined style={{ fontSize: 20, color: '#fa8c16' }} />
-            <h2 style={{ margin: 0, fontSize: 18, fontWeight: 600 }}>提示词库</h2>
+            <h2 style={{ margin: 0, fontSize: 18, fontWeight: 600 }}>视频 AI 提示词库</h2>
           </div>
-          <p style={{ margin: '4px 0 0', color: '#999', fontSize: 13 }}>
-            精选 AI 视频生成提示词，一键复制即可用于视频生成
+          <p style={{ margin: '6px 0 0', color: '#8c8c8c', fontSize: 13, lineHeight: 1.7 }}>
+            按短剧叙事、口播带货、知识号、产品广告、镜头语言、风格质感整理常用模板。
+            重点补充了 AI 短剧与 AI 批量自媒体视频场景，可直接复制到视频生成页使用。
           </p>
         </div>
         <Button type="primary" icon={<PlusOutlined />} onClick={openCreate}>
@@ -140,28 +196,56 @@ export default function PromptLibPage() {
         </Button>
       </div>
 
-      {/* Filters */}
+      <div
+        style={{
+          background: '#fafafa',
+          border: '1px solid #f0f0f0',
+          borderRadius: 12,
+          padding: 16,
+          marginBottom: 16,
+        }}
+      >
+        <div style={{ fontWeight: 600, marginBottom: 8 }}>推荐写法</div>
+        <div style={{ color: '#595959', fontSize: 13, lineHeight: 1.8 }}>
+          结构建议：主体身份 + 核心动作 + 场景空间 + 镜头运动 + 光线氛围 + 风格质感 + 画幅比例 + 输出目标。
+        </div>
+        <div style={{ color: '#8c8c8c', fontSize: 12, marginTop: 6 }}>
+          示例：竖屏 9:16，年轻创业者接到电话后神情骤变，办公室夜景，快速推镜，冷暖反差光，电影级短剧质感。
+        </div>
+      </div>
+
       <div style={{ display: 'flex', gap: 10, marginBottom: 16, flexWrap: 'wrap', alignItems: 'center' }}>
         <Input.Search
-          placeholder="搜索提示词"
-          style={{ width: 220 }}
+          placeholder="搜索标题、标签、中文说明或 Prompt"
+          style={{ width: 280 }}
           value={keyword}
-          onChange={(e) => setKeyword(e.target.value)}
+          onChange={(event) => setKeyword(event.target.value)}
           allowClear
         />
         <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap' }}>
-          {(['all', ...CATEGORIES] as const).map((c) => (
+          {(['all', ...CATEGORIES] as const).map((category) => (
             <Tag
-              key={c}
-              color={activeCategory === c ? (c === 'all' ? 'default' : CATEGORY_COLOR[c as PromptCategory]) : undefined}
+              key={category}
+              color={
+                activeCategory === category
+                  ? category === 'all'
+                    ? 'default'
+                    : CATEGORY_COLOR[category as PromptCategory]
+                  : undefined
+              }
               style={{
                 cursor: 'pointer',
-                background: activeCategory === c ? undefined : '#fafafa',
-                fontWeight: activeCategory === c ? 600 : 400,
+                marginInlineEnd: 0,
+                paddingInline: 10,
+                lineHeight: '26px',
+                borderRadius: 999,
+                background: activeCategory === category ? undefined : '#fff',
+                borderColor: '#e8e8e8',
+                fontWeight: activeCategory === category ? 600 : 400,
               }}
-              onClick={() => setActiveCategory(c)}
+              onClick={() => setActiveCategory(category)}
             >
-              {c === 'all' ? '全部' : c}
+              {category === 'all' ? '全部' : category}
             </Tag>
           ))}
         </div>
@@ -169,45 +253,57 @@ export default function PromptLibPage() {
 
       <Tabs
         activeKey={tabKey}
-        onChange={(k) => setTabKey(k as typeof tabKey)}
+        onChange={(key) => setTabKey(key as typeof tabKey)}
         items={[
           { key: 'all', label: '全部提示词' },
-          { key: 'favorites', label: `我的收藏${favCount > 0 ? ` (${favCount})` : ''}` },
-          { key: 'custom', label: `自建${customCount > 0 ? ` (${customCount})` : ''}` },
+          { key: 'favorites', label: `我的收藏${favoriteCount > 0 ? ` (${favoriteCount})` : ''}` },
+          { key: 'custom', label: `自建模板${customCount > 0 ? ` (${customCount})` : ''}` },
         ]}
         style={{ marginBottom: 8 }}
       />
 
-      {/* Prompt grid */}
       {filtered.length === 0 ? (
-        <Empty description="暂无提示词" style={{ marginTop: 60 }} />
+        <Empty description="当前筛选条件下暂无提示词" style={{ marginTop: 60 }} />
       ) : (
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(340px, 1fr))', gap: 14 }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(360px, 1fr))', gap: 14 }}>
           {filtered.map((item) => (
             <div
               key={item.id}
               style={{
                 background: '#fff',
                 border: '1px solid #f0f0f0',
-                borderRadius: 10,
+                borderRadius: 12,
                 padding: 16,
                 display: 'flex',
                 flexDirection: 'column',
                 gap: 10,
-                transition: 'box-shadow 0.15s',
+                transition: 'box-shadow 0.15s ease, transform 0.15s ease',
               }}
-              onMouseEnter={(e) => (e.currentTarget.style.boxShadow = '0 2px 12px rgba(0,0,0,0.08)')}
-              onMouseLeave={(e) => (e.currentTarget.style.boxShadow = 'none')}
+              onMouseEnter={(event) => {
+                event.currentTarget.style.boxShadow = '0 10px 24px rgba(0, 0, 0, 0.08)'
+                event.currentTarget.style.transform = 'translateY(-2px)'
+              }}
+              onMouseLeave={(event) => {
+                event.currentTarget.style.boxShadow = 'none'
+                event.currentTarget.style.transform = 'translateY(0)'
+              }}
             >
-              {/* Title row */}
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: 12 }}>
                 <div>
-                  <div style={{ fontWeight: 600, fontSize: 14, marginBottom: 4 }}>{item.title}</div>
+                  <div style={{ fontWeight: 600, fontSize: 15, marginBottom: 6 }}>{item.title}</div>
                   <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap' }}>
-                    <Tag color={CATEGORY_COLOR[item.category]} style={{ fontSize: 11 }}>{item.category}</Tag>
-                    {item.isCustom && <Tag color="default" style={{ fontSize: 11 }}>自建</Tag>}
-                    {item.tags.slice(0, 3).map((t) => (
-                      <span key={t} style={{ color: '#999', fontSize: 11 }}>#{t}</span>
+                    <Tag color={CATEGORY_COLOR[item.category]} style={{ fontSize: 11, marginInlineEnd: 0 }}>
+                      {item.category}
+                    </Tag>
+                    {item.isCustom && (
+                      <Tag color="default" style={{ fontSize: 11, marginInlineEnd: 0 }}>
+                        自建
+                      </Tag>
+                    )}
+                    {item.tags.slice(0, 4).map((tag) => (
+                      <span key={tag} style={{ color: '#8c8c8c', fontSize: 11 }}>
+                        #{tag}
+                      </span>
                     ))}
                   </div>
                 </div>
@@ -219,27 +315,37 @@ export default function PromptLibPage() {
                 />
               </div>
 
-              {/* Chinese description */}
-              <div style={{
-                fontSize: 13, color: '#555', lineHeight: 1.7,
-                background: '#f9f9f9', borderRadius: 6, padding: '8px 10px',
-              }}>
+              <div
+                style={{
+                  fontSize: 13,
+                  color: '#434343',
+                  lineHeight: 1.75,
+                  background: '#fafafa',
+                  borderRadius: 8,
+                  padding: '10px 12px',
+                  minHeight: 82,
+                }}
+              >
                 {item.promptZh}
               </div>
 
-              {/* English prompt */}
-              <div style={{
-                fontSize: 12, color: '#888', lineHeight: 1.6,
-                fontFamily: 'monospace',
-                background: '#f5f5f5', borderRadius: 6, padding: '8px 10px',
-                maxHeight: 64, overflow: 'hidden',
-                maskImage: 'linear-gradient(to bottom, black 60%, transparent 100%)',
-              }}>
+              <div
+                style={{
+                  fontSize: 12,
+                  color: '#595959',
+                  lineHeight: 1.7,
+                  fontFamily: 'Consolas, Monaco, monospace',
+                  background: '#f5f5f5',
+                  borderRadius: 8,
+                  padding: '10px 12px',
+                  maxHeight: 110,
+                  overflow: 'hidden',
+                }}
+              >
                 {item.prompt}
               </div>
 
-              {/* Footer */}
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: 12 }}>
                 <UseBadge count={item.useCount} />
                 <div style={{ display: 'flex', gap: 4 }}>
                   {item.isCustom && (
@@ -247,25 +353,23 @@ export default function PromptLibPage() {
                       <Tooltip title="编辑">
                         <Button type="text" size="small" icon={<EditOutlined />} onClick={() => openEdit(item)} />
                       </Tooltip>
-                      <Popconfirm title="确认删除？" onConfirm={() => handleDelete(item.id)}>
+                      <Popconfirm title="确认删除这条提示词？" onConfirm={() => handleDelete(item.id)}>
                         <Button type="text" size="small" danger icon={<DeleteOutlined />} />
                       </Popconfirm>
                     </>
                   )}
-                  <Tooltip title="用于视频生成">
+                  <Tooltip title="复制后跳转到视频生成页">
                     <Button
                       type="text"
                       size="small"
                       icon={<VideoCameraAddOutlined />}
-                      onClick={() => { handleCopy(item); navigate('/video-gen') }}
+                      onClick={() => {
+                        handleCopy(item)
+                        navigate('/video-gen')
+                      }}
                     />
                   </Tooltip>
-                  <Button
-                    type="primary"
-                    size="small"
-                    icon={<CopyOutlined />}
-                    onClick={() => handleCopy(item)}
-                  >
+                  <Button type="primary" size="small" icon={<CopyOutlined />} onClick={() => handleCopy(item)}>
                     复制
                   </Button>
                 </div>
@@ -275,46 +379,38 @@ export default function PromptLibPage() {
         </div>
       )}
 
-      {/* Create / Edit Modal */}
       <Modal
         title={editTarget ? '编辑提示词' : '新建提示词'}
         open={createOpen}
         onCancel={() => setCreateOpen(false)}
         onOk={() => form.submit()}
         okText="保存"
-        width={560}
+        width={620}
         destroyOnClose
       >
         <Form form={form} layout="vertical" onFinish={handleSave} style={{ marginTop: 16 }}>
           <Form.Item name="title" label="标题" rules={[{ required: true, message: '请输入标题' }]}>
-            <Input placeholder="简短描述这条提示词，如：赛博朋克城市夜景" />
+            <Input placeholder="例如：短剧反转结尾定格" />
           </Form.Item>
-          <Form.Item name="category" label="分类" rules={[{ required: true }]}>
-            <Select
-              options={CATEGORIES.map((c) => ({ value: c, label: c }))}
-              placeholder="选择分类"
-            />
+
+          <Form.Item name="category" label="分类" rules={[{ required: true, message: '请选择分类' }]}>
+            <Select options={CATEGORIES.map((category) => ({ value: category, label: category }))} placeholder="选择分类" />
           </Form.Item>
-          <Form.Item
-            name="promptZh"
-            label="中文说明"
-            rules={[{ required: true, message: '请输入中文说明' }]}
-          >
-            <TextArea placeholder="描述这条提示词的效果（中文）" autoSize={{ minRows: 2, maxRows: 4 }} />
+
+          <Form.Item name="promptZh" label="中文说明" rules={[{ required: true, message: '请输入中文说明' }]}>
+            <TextArea placeholder="描述它适合什么视频场景、镜头目标和使用方式" autoSize={{ minRows: 3, maxRows: 5 }} />
           </Form.Item>
-          <Form.Item
-            name="prompt"
-            label="英文提示词（Prompt）"
-            rules={[{ required: true, message: '请输入提示词' }]}
-          >
+
+          <Form.Item name="prompt" label="Prompt 内容" rules={[{ required: true, message: '请输入 Prompt' }]}>
             <TextArea
-              placeholder="输入用于 AI 视频生成的英文提示词..."
-              autoSize={{ minRows: 3, maxRows: 6 }}
-              style={{ fontFamily: 'monospace', fontSize: 13 }}
+              placeholder="输入可直接用于视频 AI 生成的完整提示词"
+              autoSize={{ minRows: 4, maxRows: 8 }}
+              style={{ fontFamily: 'Consolas, Monaco, monospace', fontSize: 13 }}
             />
           </Form.Item>
+
           <Form.Item name="tags" label="标签">
-            <Input placeholder="用逗号分隔，如：赛博朋克，城市，夜景" />
+            <Input placeholder="用中文逗号、英文逗号或空格分隔，例如：短剧，反转，竖屏，高情绪" />
           </Form.Item>
         </Form>
       </Modal>

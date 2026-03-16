@@ -263,6 +263,7 @@ def fetch_all(platform_filter=None, mock=False):
     print(f"\n📊 完成: {total}条 / {ok}/{len(targets)}平台成功")
     return results
 
+
 CAT_COLORS = {"科技":"#7B61FF","娱乐":"#FF4081","社会":"#FF6B35","财经":"#FFB300",
     "体育":"#00C9A7","政策":"#448AFF","生活":"#FF8F5E","教育":"#4ADE80",
     "国际":"#E040FB","其他":"#78909C","热搜":"#FF6B35"}

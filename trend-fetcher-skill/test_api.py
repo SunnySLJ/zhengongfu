@@ -4,15 +4,20 @@ import json, urllib.request, urllib.error
 
 API_KEY = "sk-sp-432aa1b7751a4fea8e6425131ed89eb4"
 BASE_URL = "https://coding.dashscope.aliyuncs.com/v1"
+MODEL = "qwen3-coder-plus"
 
 def test():
+    import sys, io
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
+    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='replace')
     print("🔧 通义千问API连通性测试")
     print(f"   Base URL: {BASE_URL}")
+    print(f"   Model: {MODEL}")
     print(f"   API Key: {API_KEY[:10]}...{API_KEY[-4:]}")
     print()
 
     body = json.dumps({
-        "model": "qwen3-coder-plus",
+        "model": MODEL,
         "messages": [{"role": "user", "content": "返回JSON数组，3条今日热搜：[{\"title\":\"话题\",\"heat\":\"热度\"}]，只返回JSON"}],
         "temperature": 0.7, "max_tokens": 500,
     }).encode("utf-8")

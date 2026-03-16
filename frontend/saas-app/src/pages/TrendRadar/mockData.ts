@@ -17,6 +17,22 @@ export interface TrendItem {
   updatedAt: string
   thumbnail: string   // image url
   link: string        // platform link
+  heatText?: string   // raw heat text from API, e.g. "4523万播放"
+  videoUrl?: string   // video url from API
+  cover?: string      // cover image url from API
+}
+
+export interface VideoCopyResult {
+  topic: string
+  title: string
+  hook: string
+  full_script: string
+  segments: { time: string; action: string; text: string }[]
+  hashtags: string[]
+  bgm_suggestion: string
+  tips: string
+  generate_time?: string
+  error?: string
 }
 
 export const TREND_PLATFORMS = [
