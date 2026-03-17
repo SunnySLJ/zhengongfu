@@ -2,3 +2,9 @@ node_modules/
 dist/
 .DS_Store
 *.local
+__pycache__/
+*.pyc
+trend-fetcher-skill/data/media/
+trend-fetcher-skill/data/sora_config.json
+trend-fetcher-skill/data/sora2_tasks.json
+trend-fetcher-skill/data/video_history.json

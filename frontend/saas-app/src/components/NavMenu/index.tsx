@@ -12,6 +12,7 @@ import {
   FileImageOutlined,
   BulbOutlined,
   RocketOutlined,
+  PlaySquareOutlined,
 } from '@ant-design/icons'
 import { useNavigate, useLocation } from 'react-router-dom'
 import type { MenuProps } from 'antd'
@@ -39,6 +40,7 @@ const items: MenuItem[] = [
       { key: '/templates', icon: <ScissorOutlined />, label: '剪辑模板' },
       { key: '/batch-mix', icon: <ThunderboltOutlined />, label: '批量混剪' },
       { key: '/video-gen', icon: <VideoCameraAddOutlined />, label: '视频生成' },
+      { key: '/video-history', icon: <PlaySquareOutlined />, label: '视频历史' },
       { key: '/prompt-lib', icon: <BulbOutlined />, label: '提示词库' },
     ],
   },

@@ -11,6 +11,7 @@ import TeamStores from '../pages/Team/Stores'
 import TeamSettings from '../pages/Team/Settings'
 import BatchMixPage from '../pages/BatchMix'
 import VideoGenPage from '../pages/VideoGen'
+import VideoHistoryPage from '../pages/VideoHistory'
 import DistributionPage from '../pages/Distribution'
 import TrendRadarPage from '../pages/TrendRadar'
 import ZhenGongFuPage from '../pages/ZhenGongFu'
@@ -46,6 +47,7 @@ export const router = createBrowserRouter([
       { path: 'templates', element: <TemplatePage /> },
       { path: 'batch-mix', element: <BatchMixPage /> },
       { path: 'video-gen', element: <VideoGenPage /> },
+      { path: 'video-history', element: <VideoHistoryPage /> },
       { path: 'prompt-lib', element: <PromptLibPage /> },
       // 作品分发
       { path: 'distribution', element: <DistributionPage /> },

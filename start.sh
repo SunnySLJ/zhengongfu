@@ -10,10 +10,10 @@ echo "=================================="
 echo "  AutoPipeline 启动中..."
 echo "=================================="
 
-# 1. 启动 API 后端 (端口 8080)
+# 1. 启动 API 后端 (端口 8899)
 echo "[1/2] 启动 API 服务..."
 cd "$API_DIR"
-PYTHONIOENCODING=utf-8 python server.py &
+PYTHONIOENCODING=utf-8 PYTHONPATH="/Users/h/Library/Python/3.9/lib/python/site-packages:$PYTHONPATH" python3 server.py &
 API_PID=$!
 sleep 2
 
@@ -26,8 +26,8 @@ APP_PID=$!
 echo ""
 echo "=================================="
 echo "  启动完成!"
-echo "  前端: http://localhost:5173"
-echo "  API:  http://localhost:8080"
+echo "  前端: http://localhost:8888"
+echo "  API:  http://localhost:8899"
 echo "=================================="
 echo "  按 Ctrl+C 停止所有服务"
 echo "=================================="
